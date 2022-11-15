@@ -1,0 +1,111 @@
+.root {
+  margin-top: 250px;
+}
+
+.header {
+  position: relative;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.headerCurve {
+  position: absolute;
+  right: -45px;
+  bottom: -15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerMobile {
+  display: none;
+}
+
+.arrowContainer {
+  height: 480px;
+  position: relative;
+}
+
+.arrow1 {
+  position: absolute;
+  left: -75px;
+  top: -25px;
+  z-index: 1;
+}
+
+.arrow2 {
+  position: absolute;
+  left: -60px;
+  bottom: 80px;
+  z-index: 1;
+}
+
+.card {
+  background-color: #393953;
+  border-radius: 16px;
+  border: 1px solid #ffffff10;
+  width: 392px;
+  height: 480px;
+}
+
+.cardTextField {
+  text-align: left;
+  position: relative;
+  margin: 25px;
+}
+
+.cardId {
+  font-family: 'Stoke';
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.cardTitle {
+  font-weight: 700;
+  margin-top: 40px;
+  letter-spacing: -0.019em;
+}
+
+.cardDescription {
+  font-weight: 300;
+  margin-top: 20px;
+  letter-spacing: -0.011em;
+}
+
+@media (max-width: 1025px) {
+  .root {
+    margin-top: 125px;
+  }
+
+  .header {
+    margin-bottom: 75px;
+  }
+
+  .cardTextField {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .card {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .containerMobile {
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

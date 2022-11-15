@@ -1,0 +1,42 @@
+.root {
+  justify-content: space-between;
+  padding: 20px 0px 20px 30px;
+  position: fixed;
+  background-color: #2C3242;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.shortButton {
+  text-transform: none;
+  font-family: 'Space Mono';
+  font-size: 16px;
+  padding: 12px 16px 12px 16px;
+  margin-right: 10px;
+}
+
+.buttonGroup {
+  display: block;
+}
+
+.rightGroup {
+  display: flex;
+  margin-right: 60px;
+}
+
+@media (max-width: 1025px) {
+  .root {
+    padding: 10px 0px 10px 10px;
+  }
+  .rightGroup {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttonGroup {
+    display: none;
+  }
+}

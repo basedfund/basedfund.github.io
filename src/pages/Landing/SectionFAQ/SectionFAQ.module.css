@@ -1,0 +1,96 @@
+.root {
+  margin-top: 90px;
+  padding-top: 60px;
+}
+
+.title {
+  position: relative;
+  width: fit-content;
+  margin: 20px auto;
+  letter-spacing: -0.022em;
+}
+
+.description {
+  font-weight: 600;
+  text-transform: lowercase;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.oval {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+}
+
+.faqList {
+  max-width: 800px;
+  margin: 80px auto;
+  border-top: 1px solid #393953;
+}
+
+.faqAccordion {
+  box-shadow: none;
+  border-bottom: 1px solid #393953;
+  border-top: 1px solid #393953;
+}
+
+.faqQuestion {
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.faqAnswer {
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.question {
+  letter-spacing: -0.014em;
+  text-align: left;
+}
+
+.answer {
+  letter-spacing: -0.014em;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 200%;
+}
+
+@media (max-width: 1025px) {
+  .root {
+    margin-top: 20px;
+    padding-top: 60px;
+  }
+
+  .faqList {
+    max-width: 95%;
+    margin: 40px auto;
+  }
+
+  .faqRow {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .description {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .oval {
+    display: none;
+  }
+}

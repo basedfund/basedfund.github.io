@@ -1,0 +1,125 @@
+.root {
+  padding-top: 150px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.titleContainer {
+  position: relative;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-style: Bold;
+}
+
+.intro {
+  margin-top: 24px;
+}
+
+.learnButtons {
+  margin-top: 50px;
+}
+
+.learnButton {
+  margin: 18px;
+  font-family: 'Spartan';
+  font-weight: 500;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-transform: none;
+  height: 48px;
+  width: 180px;
+  color: #fff;
+}
+
+.statusGroup {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 170px;
+}
+
+.downCurve {
+  position: absolute;
+  right: 0px;
+  bottom: -15px
+}
+
+.statusBox {
+  margin: 0px 50px 20px 50px;
+  margin-right: 50px;
+}
+
+.statusValue {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.statusName {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  color: #C8C7D8;
+  padding-top: 5px;
+}
+
+.advantageBox {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  max-width: 600px;
+}
+
+.reasonTitle {
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1025px) {
+  .root {
+    padding-top: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .statusBox {
+    margin-top: 60px;
+  }
+
+  .advantageBox {
+    margin-top: 25px;
+    margin-bottom: 70px;
+  }
+
+  .reasonTitle {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .learnButton {
+    width: 150px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+
+  .statusGroup {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .statusBox {
+    margin: 0px 10px 20px 10px;
+  }
+}
