@@ -3,15 +3,9 @@ import { Box, Stack, Button } from '@mui/material';
 import { WalletConnectButton } from '../../components/WalletConnectButton/WalletConnectButton';
 import BedRockLogo from '../../assets/images/BedRockLogo.svg';
 import styles from './Header.module.css';
+import { scrollMoveTo } from '../../utils';
 
 export function Header() {
-  const scrollMoveTo = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-
   return (
     <Stack className={styles.root} direction='row'>
       <img src={BedRockLogo} />

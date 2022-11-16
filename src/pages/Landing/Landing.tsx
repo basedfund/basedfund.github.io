@@ -14,7 +14,9 @@ export function Landing() {
     <Box>
       <Box className={styles.container1}>
         <SectionTop />
-        <SectionSlides />
+        <Box>
+          <SectionSlides />
+        </Box>
         <SectionSteps />
       </Box>
 

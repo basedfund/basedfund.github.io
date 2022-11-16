@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Button, Stack, Typography } from '@mui/material';
-import { getSafeCnt, URL_LEARN_MORE, URL_VIEW_VAULTS } from '../../../api';
+import { getSafeCnt, URL_VIEW_VAULTS } from '../../../api';
 import { StatusBox } from './StatusBox';
 import SvgArrow1 from '../../../assets/images/arrow1.svg';
 import SvgCurve1 from '../../../assets/images/curve1.svg';
 import RightArrow from '../../../components/svg/RightArrow';
 import styles from './SectionTop.module.css';
+import { scrollMoveTo } from '../../../utils';
 
 export function SectionTop() {
   const [safeCnt, setSafeCnt] = useState(0);
@@ -13,10 +14,6 @@ export function SectionTop() {
   useEffect(() => {
     setSafeCnt(getSafeCnt());
   }, []);
-  
-  const goToLearnMore = () => {
-    window.open(URL_LEARN_MORE, '_blank');
-  }
   
   const goToViewVaults = () => {
     window.open(URL_VIEW_VAULTS, '_blank');
@@ -34,7 +31,7 @@ export function SectionTop() {
         Deposit your stablecoins to protect your capital against key risks like smart contract hacks or price depeg.
       </Typography>
       <Box className={styles.learnButtons}>
-        <Button className={styles.learnButton} variant='outlined' color='primary' onClick={goToLearnMore}>
+        <Button className={styles.learnButton} variant='outlined' color='primary' onClick={() => scrollMoveTo('section-whychoose')}>
           Learn more
         </Button>
         <Button className={styles.learnButton} variant='contained' color='primary' onClick={goToViewVaults} endIcon={<RightArrow />}>
@@ -47,7 +44,7 @@ export function SectionTop() {
         <StatusBox value='-' suffix='Currently being audited' />
       </Stack>
 
-      <Box className={styles.advantageBox} >
+      <Box className={styles.advantageBox} id='section-whychoose'>
         <img src={SvgArrow1} />
         <Typography variant='h3' color='text.primary' className={styles.reasonTitle}>
           Why choose us?
