@@ -27,18 +27,18 @@ export function SectionLinks() {
               <Link href={URL_TERMS_AND_CONDITIONS}>
                 <Typography className={styles.link} variant='body1'>Terms & Conditions</Typography>
               </Link>
-              <Link href={URL_CONTACT}>
-                <Typography className={styles.link} variant='body1'>Contact</Typography>
-              </Link>
             </Grid>
             <Grid item xs={4}>
-              <Typography className={styles.groupName} variant='h5'>Data</Typography>
+              <Typography className={styles.groupName} variant='h5'>Reach Out</Typography>
               {/* <Link href={URL_DEFI_LLAMA}>
                  <Typography className={styles.link} variant='body1'>Defi llama</Typography>
                </Link>
                */}
               <Link href={URL_GITHUB}>
                 <Typography className={styles.link} variant='body1'>Github</Typography>
+              </Link>
+              <Link href={URL_CONTACT}>
+                <Typography className={styles.link} variant='body1'>Contact Us</Typography>
               </Link>
               <Link href={URL_INVEST_IN_BEDROCK}>
                 <Typography className={styles.link} variant='body1'>Invest in Bedrock</Typography>
@@ -47,12 +47,12 @@ export function SectionLinks() {
             <Grid item xs={4}>
               <Typography className={styles.groupName} variant='h5'>Community</Typography>
               <Box>
-                <Link href={URL_INSTAGRAM}>
+                {/* <Link href={URL_INSTAGRAM}>
                   <img className={styles.socialIcon} src={SvgInstagram} />
                 </Link>
                 <Link href={URL_TWITCH}>
                   <img className={styles.socialIcon} src={SvgTwitch} />
-                </Link>
+                </Link> */}
                 <Link href={URL_TWITTER}>
                   <img className={styles.socialIcon} src={SvgTwitter} />
                 </Link>
@@ -60,9 +60,9 @@ export function SectionLinks() {
               <Link href={URL_BLOG}>
                 <Typography className={styles.link} variant='body1'>Blog</Typography>
               </Link>
-              <Link href={URL_FAQS}>
+              {/*<Link href={URL_FAQS}>
                 <Typography className={styles.link} variant='body1'>FAQ's</Typography>
-              </Link>
+              </Link> */}
               <Link href={URL_KNOWLEDGE_CENTER}>
                 <Typography className={styles.link} variant='body1'>Knowledge Center</Typography>
               </Link>
