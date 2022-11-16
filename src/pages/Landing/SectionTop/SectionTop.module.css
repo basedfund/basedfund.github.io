@@ -1,5 +1,4 @@
 .root {
-  padding-top: 150px;
   margin-left: 60px;
   margin-right: 60px;
 }
@@ -85,7 +84,6 @@
 
 @media (max-width: 1025px) {
   .root {
-    padding-top: 120px;
     margin-left: 10px;
     margin-right: 10px;
   }

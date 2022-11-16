@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Stack, Button } from '@mui/material';
+import { Box, Stack, Button, Link } from '@mui/material';
 import { WalletConnectButton } from '../../components/WalletConnectButton/WalletConnectButton';
 import BedRockLogo from '../../assets/images/BedRockLogo.svg';
 import styles from './Header.module.css';
@@ -8,7 +8,9 @@ import { scrollMoveTo } from '../../utils';
 export function Header() {
   return (
     <Stack className={styles.root} direction='row'>
-      <img src={BedRockLogo} />
+      <Link href={'/'}>
+        <img src={BedRockLogo} />
+      </Link>
       <Box className={styles.rightGroup}>
         <Box className={styles.buttonGroup}>
           <Button className={styles.shortButton} color="secondary" onClick={() => scrollMoveTo('section-protect')}>

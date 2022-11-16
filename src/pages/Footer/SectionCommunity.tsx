@@ -1,22 +1,10 @@
 import React, { useState } from 'react';
-import { Box, Button, FormControl, TextField, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import axios from 'axios';
 import SvgCurve4 from '../../assets/images/curve4.svg';
 import styles from './Footer.module.css';
 
 export function SectionCommunity() {
-  const [emailAddress, setEmailAddress] = useState('');
-
-  const submitEmailAddress = async () => {
-    axios.post('https://formspree.io/f/mbjbrplr', {
-      email: emailAddress
-    }).then(function (response) {
-      console.log({ response });
-    }).catch(function (error) {
-      console.log({ error });
-    });
-  }
-
   return (
     <Box className={styles.communityContainer}>
       <Typography className={styles.title} variant='h4' color='text.primary'>

@@ -5,7 +5,7 @@ import SvgInstagram from '../../assets/images/Instagram.svg';
 import SvgTwitter from '../../assets/images/Twitter.svg';
 import SvgTwitch from '../../assets/images/Twitch.svg';
 import styles from './Footer.module.css';
-import { URL_BLOG, URL_CONTACT, URL_DEFI_LLAMA, URL_FAQS, URL_GITHUB, URL_INSTAGRAM, URL_INVEST_IN_BEDROCK, URL_KNOWLEDGE_CENTER, URL_MANAGE_SETTINGS, URL_PRIVACY_POLICY, URL_TERMS_AND_CONDITIONS, URL_TWITCH, URL_TWITTER } from '../../api';
+import { URL_BLOG, URL_CONTACT, URL_DEFI_LLAMA, URL_FAQS, URL_GITHUB, URL_INSTAGRAM, URL_INVEST_IN_BEDROCK, URL_KNOWLEDGE_CENTER, URL_MANAGE_SETTINGS, URL_TWITCH, URL_TWITTER } from '../../api';
 
 export function SectionLinks() {
   return (
@@ -21,10 +21,10 @@ export function SectionLinks() {
           <Grid container direction='row'>
             <Grid item xs={4}>
               <Typography className={styles.groupName} variant='h5'>Legal</Typography>
-              <Link href={URL_PRIVACY_POLICY}>
+              <Link href={'/policy'}>
                 <Typography className={styles.link} variant='body1'>Privacy Policy</Typography>
               </Link>
-              <Link href={URL_TERMS_AND_CONDITIONS}>
+              <Link href={'/terms'}>
                 <Typography className={styles.link} variant='body1'>Terms & Conditions</Typography>
               </Link>
             </Grid>

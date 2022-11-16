@@ -1,0 +1,18 @@
+.root {
+  margin-bottom: 500px;
+}
+
+.title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.context {
+  color: #C8C7D8;
+}
+
+@media (max-width: 1025px) {
+  .root {
+    margin-bottom: 300px;
+  }
+}
