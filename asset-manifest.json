@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.828d2b72.css",
-    "main.js": "/static/js/main.67df2096.js",
+    "main.js": "/static/js/main.a96759e6.js",
     "static/js/787.d3cfd008.chunk.js": "/static/js/787.d3cfd008.chunk.js",
     "static/media/BGCurveGroup.svg": "/static/media/BGCurveGroup.5bf0927b235e61da3c81.svg",
     "static/media/DAI.svg": "/static/media/DAI.35f3f7a91737c071d81315ff37ec644c.svg",
@@ -22,21 +22,19 @@
     "static/media/TwentyDots.svg": "/static/media/TwentyDots.1a7ac48af3f906a97bc69ec410a8a3d5.svg",
     "static/media/MaskGroup2.svg": "/static/media/MaskGroup2.675c81219d630c8dae73021ed1178a64.svg",
     "static/media/MaskGroup.svg": "/static/media/MaskGroup.af057848b4a3d6c04eaa356692ec643b.svg",
-    "static/media/Instagram.svg": "/static/media/Instagram.8c37b61fde1717a767d9f2852c774b75.svg",
     "static/media/Twitter.svg": "/static/media/Twitter.03012b82cec1c475e5144be7c906f597.svg",
     "index.html": "/index.html",
     "static/media/DownArrow.svg": "/static/media/DownArrow.5478257dcf50a652bab4deb726ab82f9.svg",
-    "static/media/Twitch.svg": "/static/media/Twitch.29aa18a4990bac6bae14f7b332e3464f.svg",
     "static/media/plus.svg": "/static/media/plus.edd67f7e9e8efac468d985b0f5a451b4.svg",
     "static/media/curve3.svg": "/static/media/curve3.2a932ca9d3203e4b21195dba2d7a91b5.svg",
     "static/media/curve4.svg": "/static/media/curve4.4b02d6b27d67de8343fc485fdb8fcc4b.svg",
     "static/media/minus.svg": "/static/media/minus.9af6e20f80e56f6e253fe2fe07ebe6bc.svg",
     "main.828d2b72.css.map": "/static/css/main.828d2b72.css.map",
-    "main.67df2096.js.map": "/static/js/main.67df2096.js.map",
+    "main.a96759e6.js.map": "/static/js/main.a96759e6.js.map",
     "787.d3cfd008.chunk.js.map": "/static/js/787.d3cfd008.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.828d2b72.css",
-    "static/js/main.67df2096.js"
+    "static/js/main.a96759e6.js"
   ]
 }
