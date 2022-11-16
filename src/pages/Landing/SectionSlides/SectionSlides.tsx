@@ -1,23 +1,26 @@
 import React from 'react';
-import { Box, Stack } from '@mui/material';
-import ScrollContainer from 'react-indiana-drag-scroll';
 import { Slide1WhyBedRock } from './Slide1WhyBedRock';
 import { Slide2TheProblem } from './Slide2TheProblem';
 import { Slide3HowDifferent } from './Slide3HowDifferent';
 import { Slide4HowItWorks } from './Slide4HowItWorks';
-import styles from './SectionSlides.module.css';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/free-mode'
+
+import { FreeMode, Mousewheel } from 'swiper'
 
 export function SectionSlides() {
   return (
-    <ScrollContainer>
-      <Box className={styles.root}>
-        <Stack direction='row'>
-          <Slide1WhyBedRock />
-          <Slide2TheProblem />
-          <Slide3HowDifferent />
-          <Slide4HowItWorks />
-        </Stack>
-      </Box>
-    </ScrollContainer>
+    <Swiper
+      slidesPerView={window.innerWidth / (window.innerWidth >= 1024 ? 1150 : 385)}
+      freeMode={true}
+      mousewheel
+      modules={[Mousewheel, FreeMode]}
+    >
+      <SwiperSlide><Slide1WhyBedRock /></SwiperSlide>
+      <SwiperSlide><Slide2TheProblem /></SwiperSlide>
+      <SwiperSlide><Slide3HowDifferent /></SwiperSlide>
+      <SwiperSlide><Slide4HowItWorks /></SwiperSlide>
+    </Swiper>
   );
 }
