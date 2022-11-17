@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import styles from './Terms.module.css';
+import styles from './TermsAndPolicy.module.css';
 
 export function Terms() {
   return (
@@ -8,9 +8,8 @@ export function Terms() {
       <Typography className={styles.title} variant='h2' color='text.primary'>
         Terms & Conditions
       </Typography>
-      <Typography className={styles.context} variant='body1' color='text.primary'>
-        (This is Terms & Conditions of BedRock protocol)
-      </Typography>
+      <Box className={styles.body}>
+      </Box>
     </Box>
   );
 }

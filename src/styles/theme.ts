@@ -193,7 +193,7 @@ let sirTheme = createTheme({
       fontFamily: 'Spartan',
       fontWeight: '500',
       letterSpacing: '0',
-      lineHeight: '125%',
+      lineHeight: '180%',
       fontSize: '18px',
       '@media (max-width: 768px)': {
         fontSize: '15px',

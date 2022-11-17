@@ -1,0 +1,50 @@
+.root {
+  margin-bottom: 500px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 300%;
+}
+
+.title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.body {
+  color: #ffffff;
+  text-align: left;
+}
+
+.section {
+  padding: 30px 0 30px 0;
+}
+
+.subSection {
+  padding: 20px 0 20px 20px;
+}
+
+.content {
+  text-indent: 20px;
+  padding: 10px 0 10px 40px;
+}
+
+@media (max-width: 1025px) {
+  .root {
+    margin-bottom: 300px;
+    max-width: 90%;
+  }
+
+  .section {
+    padding: 15px 0 15px 0;
+  }
+  
+  .subSection {
+    padding: 10px 0 10px 5px;
+  }
+  
+  .content {
+    text-indent: 10px;
+    padding: 5px 0 5px 10px;
+  }
+}

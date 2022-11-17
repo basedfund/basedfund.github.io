@@ -3,9 +3,9 @@ import { Slide1WhyBedRock } from './Slide1WhyBedRock';
 import { Slide2TheProblem } from './Slide2TheProblem';
 import { Slide3HowDifferent } from './Slide3HowDifferent';
 import { Slide4HowItWorks } from './Slide4HowItWorks';
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
-import 'swiper/css/free-mode'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
 
 import { FreeMode, Mousewheel } from 'swiper'
 
