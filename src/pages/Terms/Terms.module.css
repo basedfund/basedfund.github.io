@@ -11,6 +11,11 @@
   color: #C8C7D8;
 }
 
+p {
+  width: 100%;
+}
+
+
 @media (max-width: 1025px) {
   .root {
     margin-bottom: 300px;
