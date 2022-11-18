@@ -13,7 +13,7 @@ export function Header() {
       </Link>
       <Box className={styles.rightGroup}>
         <Box className={styles.buttonGroup}>
-          <Button className={styles.shortButton} color="secondary" onClick={() => scrollMoveTo('section-protect')}>
+          <Button className={styles.shortButton} color="secondary" onClick={() => scrollMoveTo('section-whychoose')}>
             Protect
           </Button>
           <Button className={styles.shortButton} color="secondary" onClick={() => scrollMoveTo('section-invest')}>
