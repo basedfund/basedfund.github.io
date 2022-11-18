@@ -24,7 +24,7 @@ export const URL_INVEST_IN_BEDROCK = 'mailto:info@bedrockprotocol.xyz?subject=In
 export const URL_INSTAGRAM = '#';
 export const URL_TWITCH = '#';
 export const URL_TWITTER = 'https://twitter.com/bedrockprotocol';
-export const URL_BLOG = 'https://bedrock.mock/BLOG';
+export const URL_BLOG = 'https://medium.com/@bedrockprotocol';
 export const URL_FAQS = 'https://bedrock.mock/FAQS';
 export const URL_KNOWLEDGE_CENTER = 'https://bedrock-protocol.gitbook.io/bedrock-protocol-documentation/';
 export const URL_MANAGE_SETTINGS = 'https://bedrock.mock/MANAGE_SETTINGS';
