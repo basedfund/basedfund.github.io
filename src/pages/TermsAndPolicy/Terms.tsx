@@ -9,10 +9,7 @@ export function Terms() {
         Terms & Conditions
       </Typography>
       <Box className={styles.body}>
-        <Typography className={styles.section} variant='h3'>
-          Bedrockprotocol.xyz Terms of Use
-        </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           1. Welcome to Bedrockprotocol.xyz
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -20,7 +17,7 @@ export function Terms() {
         </Typography>
         <Typography className={styles.content} variant='body2'>
           <strong>Bedrockprotocol.xyz&nbsp;</strong>
-          is brought to you by Based Inc. (&ldquo;Based&rdquo;) and its affiliates (collectively, &ldquo;we,&rdquo; &ldquo;us,&rdquo; 
+          is brought to you by Based Inc. (&ldquo;Based&rdquo;) and its affiliates (collectively, &ldquo;we,&rdquo; &ldquo;us,&rdquo;
           or &ldquo;our&rdquo;) committed to creating open-source software that protects against financial loss.
           Bedrockprotocol.xyz provides information and resources about the fundamentals of the decentralized non-custodial
           protection protocol called the Bedrock Protocol (the &ldquo;Bedrock Protocol&rdquo; or &ldquo;Protocol&rdquo;).
@@ -39,7 +36,7 @@ export function Terms() {
           SERVICES AVAILABLE THEREIN, AND SUCCESSOR WEBSITE(S) OR APPLICATION(S) THERETO, THE &ldquo;SITE&rdquo;), AND OTHER
           SERVICES THAT LINK TO THESE TERMS, AS WELL AS ANY INFORMATION, TEXT, LINKS, GRAPHICS, PHOTOS, AUDIO, VIDEO, OR
           OTHER MATERIALS STORED, RETRIEVED OR APPEARING THEREON, WHETHER ACCESSED THROUGH THE SITE OR OTHERWISE
-          (COLLECTIVELY, THE &ldquo;SERVICES&rdquo;), YOU ARE ENTERING INTO A BINDING AGREEMENT WITH US THAT INCLUDES THESE TERMS, BEDROCK.XYZ - 
+          (COLLECTIVELY, THE &ldquo;SERVICES&rdquo;), YOU ARE ENTERING INTO A BINDING AGREEMENT WITH US THAT INCLUDES THESE TERMS, BEDROCK.XYZ -
           PRIVACY POLICY (FOUND HERE), AND OTHER POLICIES REFERENCED HEREIN (COLLECTIVELY, THE &ldquo;AGREEMENT&rdquo;).
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -68,7 +65,7 @@ export function Terms() {
           You should review the Terms from time to time to ensure that you understand the terms and conditions that apply to you
           when you access or use the Site.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           2. Services
         </Typography>
         <Typography className={styles.subSection} variant='h5'>
@@ -151,7 +148,7 @@ export function Terms() {
           All community contributors to the ecosystem around the Bedrock Protocol are independent
           of us, and we will not have and do not assume any liability or responsibility for their actions or omissions.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           3. Assumption of Risk
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -251,7 +248,7 @@ export function Terms() {
           been, are and will be solely responsible for conducting your own due diligence into the risks of a transaction and
           the underlying smart contracts and cryptoassets.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           4. Taxes
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -261,7 +258,7 @@ export function Terms() {
           exploiting any cryptoassets and interacting with smart contracts. Blockchain-based transactions are novel, and
           their tax treatment is uncertain.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           5. The Services
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -345,7 +342,7 @@ export function Terms() {
           We reserve the right to investigate and prosecute any suspected breaches of this Agreement, including the Terms. We may disclose
           any information as necessary to satisfy any law, regulation, legal process, or governmental request.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           7. Disclaimers and Limitations of Liability
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -422,7 +419,7 @@ export function Terms() {
           limit certain liabilities, the extent of Based Inc Indemnified Parties&rsquo; liability and the scope of any such
           warranties will be as permitted under applicable law.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           8. Indemnification
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -437,7 +434,7 @@ export function Terms() {
           your expense, the exclusive defense and control of any matter subject to indemnification by you. You agree to
           cooperate with our defense of any claim. You will not in any event settle any claim without our prior written consent.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           9. Arbitration Agreement and Waiver of Rights, Including Class Actions.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -491,7 +488,7 @@ export function Terms() {
           between you and us in accordance with the provisions of this section as of the date you first accepted these Terms
           (or accepted any subsequent changes to these Terms).
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           10. Waiver of Injunctive or Other Equitable Relief.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -501,7 +498,7 @@ export function Terms() {
           SUBMISSION, PRODUCT, SERVICE, OR INTELLECTUAL PROPERTY OWNED, LICENSED, USED OR CONTROLLED BY ANY BASED INC
           INDEMNIFIED PARTY.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           11. Termination; Cancellation
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -522,7 +519,7 @@ export function Terms() {
           YOU. YOU AGREE THAT WE MAY REMOVE THE SERVICES AND/OR ANY CONTENT THEREON FOR INDEFINITE PERIODS OF TIME OR CANCEL
           THE SERVICES AT ANY TIME, WITHOUT NOTICE TO YOU.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           12. Severability
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -531,7 +528,7 @@ export function Terms() {
           and the unenforceable portion shall be deemed to be severed from the Agreement.
           Such determination shall not affect the validity and enforceability of any other remaining provisions.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           13. Assignment
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -539,7 +536,7 @@ export function Terms() {
           Indemnified Party, or to its successors in the interest of any business associated with the Services provided by us.
           You may not assign or transfer any rights or obligations under the Agreement without our prior written consent.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           14. Entire Agreement</Typography>
         <Typography className={styles.content} variant='body2'>
           The Agreement (including, without limitation, these Terms, and the Based Inc Privacy
@@ -549,7 +546,7 @@ export function Terms() {
           to, any prior versions of these Terms). Any failure by us to exercise or enforce any right or provision of the
           Agreement (including, without limitation, these Terms) shall not constitute a waiver of such right or provision.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           15. Governing Law
         </Typography>
         <Typography className={styles.content} variant='body2'>

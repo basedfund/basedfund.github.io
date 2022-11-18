@@ -12,7 +12,7 @@ export function Policy() {
         <Typography className={styles.content} variant='body2'>
           Effective Date: November 17, 2022
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           1. Introduction and Overview.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -32,7 +32,7 @@ export function Policy() {
           &ldquo;Contact Us&rdquo; section below. If you are a data subject in the European Economic Area, the United
           Kingdom, or a resident of Canada, please see the additional disclosures at the end of this Privacy Policy.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           2. Changes to Privacy Policy.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -40,7 +40,7 @@ export function Policy() {
           will be effective immediately upon our posting of the revised Privacy Policy. For the avoidance of doubt, your
           continued use of the Services indicates your consent to the revised Privacy Policy then posted.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           3. Information Collection.
         </Typography>
         <Typography className={styles.subSection} variant='h5'>
@@ -93,7 +93,7 @@ export function Policy() {
           rights and choices regarding them, please see the &ldquo;Analytics&rdquo; and &ldquo;Your Rights and
           Choices&rdquo; sections below.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           4. Use of Information.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -120,7 +120,7 @@ export function Policy() {
           for any purpose except as prohibited by applicable law. For information on your rights and choices with respect to
           how we use information about you, please see the &ldquo;Your Rights and Choices&rdquo; section below.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           5. Sharing and Disclosure of Information.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -149,7 +149,7 @@ export function Policy() {
             <li>
               <strong>Merger or Acquisition.&nbsp;</strong>
               We share information in connection with, or during negotiations of, any proposed or actual merger, purchase, sale
-              or any other type of acquisition or business combination of all or any portion of our assets, or transfer of all 
+              or any other type of acquisition or business combination of all or any portion of our assets, or transfer of all
               or a portion of our business to another business.
             </li>
             <li>
@@ -172,7 +172,7 @@ export function Policy() {
           information on your rights and choices regarding how we share information about you, please see the &ldquo;Your
           Rights and Choices&rdquo; section below.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           6. Other Parties.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -188,13 +188,13 @@ export function Policy() {
           information in the U.S. or elsewhere. We encourage you to familiarize yourself with and consult their privacy
           policies and terms of use.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           7. Analytics.
         </Typography>
         <Typography className={styles.content} variant='body2'>
           We do not use analytics services for this Site.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           8. Your Rights and Choices.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -216,7 +216,7 @@ export function Policy() {
         <Typography className={styles.content} variant='body2'>
           Please be aware that if you disable or remove tracking technologies some parts of the Based Inc Services may not function correctly.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           9. Data Security.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -224,7 +224,7 @@ export function Policy() {
           about you from loss, theft, misuse, unauthorized access, disclosure, alteration, and destruction. Nevertheless, transmission
           via the internet is not completely secure and we cannot guarantee the security of information about you.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           10. International Transfer.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -234,7 +234,7 @@ export function Policy() {
           Your use of the Services or provision of any information therefore constitutes your consent to the transfer to and from, processing,
           usage, sharing, and storage of information about you in the EU and other jurisdictions as set out in this Privacy Policy.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           11. Children.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -244,7 +244,7 @@ export function Policy() {
           personal information in violation of COPPA, please contact us at info@bedrockprotocol.xyz and we will remove the personal information
           in accordance with COPPA.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           12. Contact Us.
         </Typography>
         <Typography className={styles.content} variant='body2'>
@@ -253,7 +253,7 @@ export function Policy() {
         <Typography className={styles.content} variant='body2'>
           By email: info@bedrockprotocol.xyz
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           13. Additional Disclosures for Data Subjects in the European Economic Area and the United Kingdom.
         </Typography>
         <Typography className={styles.subSection} variant='h5'>
@@ -272,8 +272,8 @@ export function Policy() {
           The GDPR requires a &ldquo;lawful basis&rdquo; for processing personal data. Our lawful bases include where:
           (i) you have given consent to the processing for one or more specific purposes, either to us or to our service providers or partners;
           (ii) processing is necessary for the performance of a contract with you;
-          (iii) processing is necessary for compliance with a legal obligation; or 
-          (iv) processing is necessary for the purposes of the legitimate interests pursued by us or a third party, 
+          (iii) processing is necessary for compliance with a legal obligation; or
+          (iv) processing is necessary for the purposes of the legitimate interests pursued by us or a third party,
           and your interests and fundamental rights and freedoms do not override those interests. Where applicable,
           we will transfer your personal data to third parties subject to appropriate or suitable safeguards, such as standard contractual clauses.
         </Typography>
@@ -306,7 +306,7 @@ export function Policy() {
           If you have any issues with our compliance, please contact us as set out in the &ldquo;Contact Us&rdquo; section above.
           You also reserve the right to lodge a complaint with the data protection regulator in your jurisdiction.
         </Typography>
-        <Typography className={styles.section} variant='h3'>
+        <Typography className={styles.section} variant='h4'>
           14. Additional Disclosures for California Residents.
         </Typography>
         <Typography className={styles.content} variant='body2'>
