@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
-import { Landing, Policy, Terms } from '../';
+import { Landing, About, Policy, Terms } from '../';
 import styles from './Body.module.css';
 
 export function Body() {
@@ -12,6 +12,7 @@ export function Body() {
           <Route path='/*' element={<Landing />} />
           <Route path='/policy' element={<Policy />} />
           <Route path='/terms' element={<Terms />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </BrowserRouter>
     </Box>
