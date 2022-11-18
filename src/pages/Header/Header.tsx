@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Box, Stack, Button, Link } from '@mui/material';
 import { WalletConnectButton } from '../../components/WalletConnectButton/WalletConnectButton';
 import BedRockLogo from '../../assets/images/BedRockLogo.svg';
@@ -8,10 +8,11 @@ import { scrollMoveTo } from '../../utils';
 const SECTION_KEY = 'sectionTo';
 
 export function Header() {
+  const [sectionTo, setSectionTo] = useState('');
   const goToSection = (section: string) => {
-    if (window.location.pathname !== '/') {
-      window.localStorage.setItem(SECTION_KEY, section);
-      window.location.pathname = '/';
+    if (window.location.hash !== '') {
+      setSectionTo(section);
+      window.location.hash = '';
     }
     else {
       scrollMoveTo(section);
@@ -19,12 +20,11 @@ export function Header() {
   }
 
   useEffect(() => {
-    const section = window.localStorage.getItem(SECTION_KEY);
-    if (section && section.length > 0) {
-      window.localStorage.setItem(SECTION_KEY, '');
-      scrollMoveTo(section);
+    if (sectionTo && sectionTo.length > 0) {
+      setSectionTo('');
+      scrollMoveTo(sectionTo);
     }
-  });
+  }, [sectionTo]);
 
   return (
     <Stack className={styles.root} direction='row'>
@@ -36,7 +36,7 @@ export function Header() {
           <Button className={styles.shortButton} color="secondary" onClick={() => goToSection('section-whychoose')}>
             Protect
           </Button>
-          <Link href={'/about'} underline='none'>
+          <Link href={'/#/about'} underline='none'>
             <Button className={styles.shortButton} color="secondary">
               About
             </Button>

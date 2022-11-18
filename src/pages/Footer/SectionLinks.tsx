@@ -21,10 +21,10 @@ export function SectionLinks() {
           <Grid container direction='row'>
             <Grid item xs={4}>
               <Typography className={styles.groupName} variant='h5'>Legal</Typography>
-              <Link href={'/policy'}>
+              <Link href={'/#/policy'}>
                 <Typography className={styles.link} variant='body1'>Privacy Policy</Typography>
               </Link>
-              <Link href={'/terms'}>
+              <Link href={'/#/terms'}>
                 <Typography className={styles.link} variant='body1'>Terms & Conditions</Typography>
               </Link>
             </Grid>

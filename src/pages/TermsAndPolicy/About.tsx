@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Box, Typography } from '@mui/material';
 import styles from './TermsAndPolicy.module.css';
 
 export function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <Box className={styles.root}>
       <Typography variant='h2' color='text.primary'>
