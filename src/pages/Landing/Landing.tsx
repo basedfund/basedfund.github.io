@@ -2,7 +2,6 @@ import React from 'react';
 import { Box } from '@mui/material';
 import { SectionTop } from './SectionTop/SectionTop';
 import { SectionSlides } from './SectionSlides/SectionSlides';
-import { SectionLearn } from './SectionLearn/SectionLearn';
 import { SectionAddVault } from './SectionAddVault/SectionAddVault';
 import { SectionFAQ } from './SectionFAQ/SectionFAQ';
 import { SectionProtect } from './SectionProtect/SectionProtect';
@@ -11,7 +10,7 @@ import styles from './Landing.module.css';
 
 export function Landing() {
   return (
-    <Box>
+    <Box className={styles.root}>
       <Box className={styles.container1}>
         <SectionTop />
         <Box className={styles.slidesContainer}>
@@ -25,7 +24,6 @@ export function Landing() {
         <SectionFAQ />
       </Box>
       <SectionAddVault />
-      <SectionLearn />
     </Box>
   );
 }

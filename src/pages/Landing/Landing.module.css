@@ -1,3 +1,7 @@
+.root {
+  text-align: center;
+}
+
 .container1 {
   padding-top: 30px;
   background-image: url('../../assets/images/BGCurveGroup.svg');
