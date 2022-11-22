@@ -8,9 +8,9 @@ import styles from './Footer.module.css';
 
 export function Footer() {
   return (
-    <Box>
+    <Box className={styles.root}>
       <SectionLearn />
-      <Box className={styles.root}>
+      <Box className={styles.container}>
         <img className={styles.bgImg} src={SvgMaskGroup2} />
         <SectionCommunity />
         <SectionLinks />
