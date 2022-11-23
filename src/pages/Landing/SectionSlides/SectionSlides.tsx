@@ -12,7 +12,7 @@ import { FreeMode, Mousewheel } from 'swiper'
 export function SectionSlides() {
   return (
     <Swiper
-      slidesPerView={window.innerWidth / (window.innerWidth >= 1024 ? 1150 : 385)}
+      slidesPerView={window.innerWidth / (window.innerWidth > 1024 ? 1150 : (window.innerWidth > 512 ? 385 : 275))}
       freeMode={true}
       mousewheel
       modules={[Mousewheel, FreeMode]}

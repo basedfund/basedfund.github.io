@@ -14,7 +14,7 @@ export function SectionCommunity() {
         <Typography variant='h2' color='text.primary'>
           Stay updated
         </Typography>
-        <img className={styles.headerCurve} src={SvgCurve4} />
+        <img className={styles.underlineCurve} src={SvgCurve4} />
       </Box>
       <Typography className={styles.guide} variant='subtitle2'>
         Connect with us to get all the updated on the email which you will put.

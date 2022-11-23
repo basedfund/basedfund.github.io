@@ -5,8 +5,6 @@ import BedRockLogo from '../../assets/images/BedRockLogo.svg';
 import styles from './Header.module.css';
 import { scrollMoveTo } from '../../utils';
 
-const SECTION_KEY = 'sectionTo';
-
 export function Header() {
   const [sectionTo, setSectionTo] = useState('');
   const goToSection = (section: string) => {
@@ -28,9 +26,11 @@ export function Header() {
 
   return (
     <Stack className={styles.root} direction='row'>
-      <Link href={'/'}>
-        <img src={BedRockLogo} />
-      </Link>
+      <Box className={styles.leftGroup}>
+        <Link href={'/'}>
+          <img className={styles.logo} src={BedRockLogo} />
+        </Link>
+      </Box>
       <Box className={styles.rightGroup}>
         <Box className={styles.buttonGroup}>
           <Button className={styles.shortButton} color="secondary" onClick={() => goToSection('section-whychoose')}>

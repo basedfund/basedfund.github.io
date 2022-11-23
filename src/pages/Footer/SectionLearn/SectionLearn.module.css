@@ -36,6 +36,7 @@
   position: absolute;
   right: 0;
   bottom: -10px;
+  max-width: 80%;
 }
 
 .description {
@@ -81,5 +82,19 @@
     margin: 5px;
     height: 60px;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 512px) {
+  .root {
+    border-radius: 20px;
+  }
+
+  .learnButton {
+    width: 120px;
+    height: 40px;
+    margin: 2px;
+    font-size: 12px;
+    letter-spacing: -0.05em;
   }
 }

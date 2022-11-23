@@ -14,7 +14,7 @@ export function SectionSteps() {
         <Typography variant='h2' color='text.primary'>
           How it works
         </Typography>
-        <img className={styles.headerCurve} src={SvgCurve2} />
+        <img className={styles.underlineCurve} src={SvgCurve2} />
       </Box>
       <Stack className={styles.container} direction='row' spacing='22px'>
         <StepCard {...STEP_CARD_CONTEXTS[0]} />

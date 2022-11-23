@@ -81,6 +81,9 @@ let sirTheme = createTheme({
       '@media (max-width: 768px)': {
         fontSize: '40px',
       },
+      '@media (max-width: 448px)': {
+        fontSize: '30px',
+      },
       '@media (min-width: 1536px)': {
         fontSize: '72px'
       }
@@ -93,6 +96,9 @@ let sirTheme = createTheme({
       fontSize: '40px',
       '@media (max-width: 768px)': {
         fontSize: '28px',
+      },
+      '@media (max-width: 448px)': {
+        fontSize: '22px',
       },
       '@media (min-width: 1536px)': {
         fontSize: '50px'
@@ -107,6 +113,9 @@ let sirTheme = createTheme({
       '@media (max-width: 768px)': {
         fontSize: '20px',
       },
+      '@media (max-width: 448px)': {
+        fontSize: '16px',
+      },
       '@media (min-width: 1536px)': {
         fontSize: '36px'
       }
@@ -119,6 +128,9 @@ let sirTheme = createTheme({
       fontSize: '24px',
       '@media (max-width: 768px)': {
         fontSize: '18px',
+      },
+      '@media (max-width: 448px)': {
+        fontSize: '15px',
       },
       '@media (min-width: 1536px)': {
         fontSize: '28px'
@@ -133,6 +145,9 @@ let sirTheme = createTheme({
       '@media (max-width: 768px)': {
         fontSize: '16px',
       },
+      '@media (max-width: 448px)': {
+        fontSize: '14px',
+      },
       '@media (min-width: 1536px)': {
         fontSize: '23px'
       }
@@ -145,6 +160,9 @@ let sirTheme = createTheme({
       fontSize: '18px',
       '@media (max-width: 768px)': {
         fontSize: '15px',
+      },
+      '@media (max-width: 448px)': {
+        fontSize: '13px',
       },
       '@media (min-width: 1536px)': {
         fontSize: '20px'
@@ -159,6 +177,9 @@ let sirTheme = createTheme({
       '@media (max-width: 768px)': {
         fontSize: '14px',
       },
+      '@media (max-width: 448px)': {
+        fontSize: '12px',
+      },
       '@media (min-width: 1536px)': {
         fontSize: '18px'
       }
@@ -171,6 +192,9 @@ let sirTheme = createTheme({
       fontSize: '16px',
       '@media (max-width: 768px)': {
         fontSize: '14px',
+      },
+      '@media (max-width: 448px)': {
+        fontSize: '12px',
       },
       '@media (min-width: 1536px)': {
         fontSize: '18px'
@@ -185,6 +209,9 @@ let sirTheme = createTheme({
       '@media (max-width: 768px)': {
         fontSize: '12px',
       },
+      '@media (max-width: 448px)': {
+        fontSize: '11px',
+      },
       '@media (min-width: 1536px)': {
         fontSize: '16px'
       }
@@ -197,6 +224,9 @@ let sirTheme = createTheme({
       fontSize: '18px',
       '@media (max-width: 768px)': {
         fontSize: '15px',
+      },
+      '@media (max-width: 448px)': {
+        fontSize: '13px',
       },
       '@media (min-width: 1536px)': {
         fontSize: '20px'

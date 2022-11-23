@@ -94,3 +94,15 @@
     display: none;
   }
 }
+
+@media (max-width: 512px) {
+  .faqQuestion {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .faqAnswer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

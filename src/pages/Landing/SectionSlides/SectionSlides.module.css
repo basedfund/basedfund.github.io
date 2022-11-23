@@ -85,3 +85,11 @@
     padding-right: 0px;
   }
 }
+
+@media (max-width: 1024px) {
+  .slide1IconBox {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+}

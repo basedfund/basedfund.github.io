@@ -25,7 +25,7 @@ export function SectionTop() {
         <Typography className={styles.title} variant='h1' color='text.primary'>
           Protect your DeFi assets
         </Typography>
-        <img className={styles.downCurve} src={SvgCurve1} />
+        <img className={styles.underlineCurve} src={SvgCurve1} />
       </Box>
       <Typography className={styles.intro} variant='subtitle1' color='text.secondary'>
         Deposit your stablecoins to protect your capital against key risks like smart contract hacks or price depeg.

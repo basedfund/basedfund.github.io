@@ -17,8 +17,9 @@
   margin-right: 10px;
 }
 
-.buttonGroup {
-  display: block;
+.leftGroup {
+  align-items: center;
+  display: flex;
 }
 
 .rightGroup {
@@ -26,10 +27,15 @@
   margin-right: 60px;
 }
 
+.buttonGroup {
+  display: block;
+}
+
 @media (max-width: 1024px) {
   .root {
     padding: 10px 0px 10px 10px;
   }
+
   .rightGroup {
     margin-right: 20px;
   }
@@ -38,5 +44,15 @@
 @media (max-width: 768px) {
   .buttonGroup {
     display: none;
+  }
+}
+
+@media (max-width: 448px) {
+  .leftGroup {
+    max-width: 30%;
+  }
+
+  .logo {
+    width: 100%;
   }
 }

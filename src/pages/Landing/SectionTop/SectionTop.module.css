@@ -42,10 +42,11 @@
   margin-top: 170px;
 }
 
-.downCurve {
+.underlineCurve {
   position: absolute;
   right: 0px;
-  bottom: -15px
+  bottom: -15px;
+  max-width: 80%;
 }
 
 .statusBox {

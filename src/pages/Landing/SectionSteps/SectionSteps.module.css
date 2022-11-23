@@ -10,10 +10,11 @@
   margin-bottom: 150px;
 }
 
-.headerCurve {
+.underlineCurve {
   position: absolute;
   right: -45px;
   bottom: -15px;
+  max-width: 70%;
 }
 
 .container {
@@ -77,20 +78,6 @@
   letter-spacing: -0.011em;
 }
 
-@media (max-width: 1024px) {
-  .root {
-    margin-top: 125px;
-  }
-
-  .header {
-    margin-bottom: 75px;
-  }
-
-  .cardTextField {
-    margin: 20px;
-  }
-}
-
 @media (max-width: 1280px) {
   .card {
     width: 80%;
@@ -107,5 +94,25 @@
     direction: column;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .root {
+    margin-top: 125px;
+  }
+
+  .header {
+    margin-bottom: 75px;
+  }
+}
+
+@media (max-width: 512px) {
+  .card {
+    width: 90%;
+  }
+
+  .cardTextField {
+    margin: 10px;
   }
 }
