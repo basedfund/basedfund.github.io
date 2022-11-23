@@ -62,7 +62,7 @@
   line-height: 200%;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .root {
     margin-top: 20px;
     padding-top: 60px;

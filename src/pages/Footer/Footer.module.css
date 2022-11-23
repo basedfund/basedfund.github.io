@@ -157,7 +157,7 @@
   font-family: 'Spartan';
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .container {
     width: 95%;
     border-radius: 20px;

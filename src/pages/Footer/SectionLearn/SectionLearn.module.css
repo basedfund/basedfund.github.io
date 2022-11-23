@@ -61,7 +61,7 @@
   padding: 10px;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .root {
     width: 90%;
     border-radius: 30px;

@@ -32,7 +32,7 @@
   background-color: #eeeeee !important;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .root {
     width: 80%;
     padding: 30px 5%;
