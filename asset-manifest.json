@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bc8c1ae.css",
-    "main.js": "/static/js/main.b5fc0d90.js",
+    "main.css": "/static/css/main.75f2973a.css",
+    "main.js": "/static/js/main.db5fa095.js",
     "static/js/787.d3cfd008.chunk.js": "/static/js/787.d3cfd008.chunk.js",
     "static/media/BGCurveGroup.svg": "/static/media/BGCurveGroup.5bf0927b235e61da3c81.svg",
     "static/media/DAI.svg": "/static/media/DAI.35f3f7a91737c071d81315ff37ec644c.svg",
@@ -29,12 +29,12 @@
     "static/media/curve3.svg": "/static/media/curve3.2a932ca9d3203e4b21195dba2d7a91b5.svg",
     "static/media/curve4.svg": "/static/media/curve4.4b02d6b27d67de8343fc485fdb8fcc4b.svg",
     "static/media/minus.svg": "/static/media/minus.9af6e20f80e56f6e253fe2fe07ebe6bc.svg",
-    "main.7bc8c1ae.css.map": "/static/css/main.7bc8c1ae.css.map",
-    "main.b5fc0d90.js.map": "/static/js/main.b5fc0d90.js.map",
+    "main.75f2973a.css.map": "/static/css/main.75f2973a.css.map",
+    "main.db5fa095.js.map": "/static/js/main.db5fa095.js.map",
     "787.d3cfd008.chunk.js.map": "/static/js/787.d3cfd008.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc8c1ae.css",
-    "static/js/main.b5fc0d90.js"
+    "static/css/main.75f2973a.css",
+    "static/js/main.db5fa095.js"
   ]
 }
