@@ -95,7 +95,7 @@
   }
 }
 
-@media (max-width: 512px) {
+@media (max-width: 448px) {
   .faqQuestion {
     padding-top: 5px;
     padding-bottom: 5px;

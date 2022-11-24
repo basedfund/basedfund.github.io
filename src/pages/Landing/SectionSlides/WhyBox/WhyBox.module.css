@@ -128,7 +128,7 @@
   }
 }
 
-@media (max-width: 512px) {
+@media (max-width: 448px) {
   .root {
     border-radius: 15px;
     width: 260px;

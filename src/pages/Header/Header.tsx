@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Stack, Button, Link } from '@mui/material';
-import { WalletConnectButton } from '../../components/WalletConnectButton/WalletConnectButton';
+import { LaunchAppButton } from '../../components/LaunchAppButton/LaunchAppButton';
 import BedRockLogo from '../../assets/images/BedRockLogo.svg';
 import styles from './Header.module.css';
 import { scrollMoveTo } from '../../utils';
@@ -45,7 +45,7 @@ export function Header() {
             FAQ
           </Button>
         </Box>
-        <WalletConnectButton />
+        <LaunchAppButton />
       </Box>
     </Stack>
   );
