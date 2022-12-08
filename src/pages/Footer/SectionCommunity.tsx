@@ -26,7 +26,7 @@ export function SectionCommunity() {
       </form>
       
       <Typography className={styles.joinSentence} variant='body1'>
-        Join others in learning how to protect your cyrpto assets
+        Join others in learning how to protect your crypto assets
       </Typography>
     </Box>
   );
