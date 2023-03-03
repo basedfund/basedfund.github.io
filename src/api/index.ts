@@ -12,6 +12,7 @@ export function getSafeCnt() {
   return 4;
 }
 
+export const URL_APP = 'https://bedrock-ui.vercel.app/';
 export const URL_VIEW_VAULTS = 'https://ji67t977vhu.typeform.com/to/zFRTs4dR';
 export const URL_VIEW_ALL_VAULTS = 'https://ji67t977vhu.typeform.com/to/zFRTs4dR';
 export const MAILTO_ADD_VAULT = 'mailto:info@bedrockprotocol.xyz?subject=Adding a vault to Bedrock';

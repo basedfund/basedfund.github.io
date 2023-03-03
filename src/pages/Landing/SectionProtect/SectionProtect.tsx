@@ -8,7 +8,7 @@ import { URL_VIEW_ALL_VAULTS } from '../../../api';
 
 export function SectionProtect() {
   const goToViewAllVaults = () => {
-    window.open(URL_VIEW_ALL_VAULTS, '_blank');    
+    window.open(URL_VIEW_ALL_VAULTS, '_blank');
   }
 
   return (
