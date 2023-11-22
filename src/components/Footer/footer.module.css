@@ -1,0 +1,169 @@
+.footer {
+    border-radius: 40px;
+    background: #050505;
+    margin-top: 100px;
+    padding: 80px;
+    border-bottom: none;
+    position: relative;
+    z-index: 1;
+}
+
+.whiteBlock {
+    width: 100%;
+    position: absolute;
+    height: 273px;
+    background: #fff;
+}
+
+.bottomContent {
+    display: flex;
+    margin-top: 80px;
+    gap: 100px;
+}
+
+.itemList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.listWrapper {
+    display: flex;
+}
+
+.title {
+    color: #FFF;
+    font-family: Urbanist Medium, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.64px;
+    cursor: default;
+    width: 129px;
+}
+
+.link {
+    color: rgba(215, 219, 229, 0.50);
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.42px;
+    text-decoration: none;
+}
+
+.imageWrapper {
+    max-width: 329px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.socialList {
+    display: flex;
+    gap: 21px;
+    padding: 8px 0 22px;
+}
+
+.logoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.socialMedia {
+    border-radius: 100px;
+    background: #56B4AB;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.socialMediaList {
+    display: flex;
+    gap: 8px;
+}
+
+.socialMediaWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+    width: 100%;
+}
+
+.allRights {
+    color: #050505;
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.56px;
+}
+
+.footerWrapper {
+    position: relative;
+    background: #F6F7F9;
+}
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+@media screen and (max-width: 1294px) {
+    .content {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .footer {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .bottomContent {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .listWrapper {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .bottomContent {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        margin-top: 50px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .socialMediaList {
+        padding: 0 10px;
+    }
+
+    .socialMediaWrapper {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .link {
+        font-size: 15px;
+    }
+}

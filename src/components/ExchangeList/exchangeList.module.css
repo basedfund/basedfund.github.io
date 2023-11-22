@@ -1,0 +1,51 @@
+.exchangeList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 60px 0 113px;
+    justify-content: center;
+}
+
+.exchange {
+    max-width: 302px;
+    width: 100%;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: #F6F7F9;
+    flex-direction: column;
+}
+
+.exchange img {
+    width: auto;
+    height: auto;
+}
+
+.text {
+    color: #CDCDCD;
+    text-align: center;
+    font-family: 'Urbanist Regular', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.8px;
+}
+
+.withText {
+    background: #2C3242;
+}
+
+@media screen and (max-width: 1024px) {
+    .exchange {
+        max-width: 290px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .exchange {
+        max-width: 275px
+    }
+}

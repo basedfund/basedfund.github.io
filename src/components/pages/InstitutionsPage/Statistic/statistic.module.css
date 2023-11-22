@@ -1,0 +1,33 @@
+.infoBlock {
+    gap: 5px;
+}
+
+.smallBlocksWrapper {
+    display: flex;
+    gap: 24px;
+}
+
+.contentBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.statWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 950px) {
+    .smallBlocksWrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .statWrapper {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}

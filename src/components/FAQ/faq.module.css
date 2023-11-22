@@ -1,0 +1,86 @@
+.blockWrapper {
+    border-radius: 40px;
+    background: #F6F7F9;
+    margin-top: 100px;
+    padding: 74px 90px;
+}
+
+.blockWrapper h2 {
+    margin-bottom: 27px;
+}
+
+.accordionTitle {
+    color: #050505;
+    font-family: 'Urbanist SemiBold', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.8px;
+    padding: 0;
+}
+
+.accordionDescription {
+    color: #050505;
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.64px;
+    opacity: 0.7;
+    padding: 0;
+}
+
+div.accordion {
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 20px 30px;
+    border: none;
+    box-shadow: none;
+}
+
+div.accordion:before {
+    display: none;
+}
+
+div.accordion.Mui-expanded {
+    margin: 0;
+}
+
+div.expandedAccordion {
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.50);
+    box-shadow: 24px 24px 48px 0 rgba(145, 142, 164, 0.08);
+    /*margin: 0 !important;*/
+}
+
+.accordionWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 43px;
+    gap: 15px
+}
+
+.expandedIcon {
+    color: #050505;
+    font-family: Urbanist Medium, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.96px;
+}
+
+@media screen and (max-width: 768px) {
+    .blockWrapper {
+        padding: 50px 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blockWrapper {
+        padding: 35px 10px;
+    }
+}

@@ -1,0 +1,55 @@
+.blockWrapper {
+    border-radius: 40px;
+    background: #F6F7F9;
+    padding: 44px 20px 44px 44px;
+    min-height: 411px;
+    position: relative;
+    width: 411px;
+}
+
+.blockWrapper button {
+    margin-top: 65px;
+}
+
+.iconWrapper {
+    height: 72px;
+    margin-bottom: 40px;
+}
+
+.blockWrapper.dark {
+    background: #050505;
+}
+
+.blockWrapper.dark h4 {
+    color: #fff;
+}
+
+.img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 40px;
+}
+
+
+@media screen and (max-width: 950px) {
+    .blockWrapper {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .blockWrapper {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .img {
+        width: 90%;
+    }
+}
+

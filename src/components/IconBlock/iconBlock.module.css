@@ -1,0 +1,19 @@
+.iconWrapper {
+    padding: 20px;
+    border-radius: 100px;
+    background: #56B4AB;
+    width: 72px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Urbanist ExtraBold", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 47px;
+}

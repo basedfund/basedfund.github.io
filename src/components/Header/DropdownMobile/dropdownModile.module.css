@@ -1,0 +1,49 @@
+.opened {
+    transform: rotate(180deg);
+}
+
+.accordionTitle {
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    min-height: 0 !important;
+}
+
+.accordionDescription {
+    padding: 0;
+    margin: 0;
+}
+
+.icon svg {
+    width: 35px;
+    height: 35px;
+    pointer-events: none;
+    display: flex;
+}
+
+.icon path {
+    fill: #000;
+}
+
+div.accordion {
+    border-radius: 0;
+    background: none;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+div.accordion:before {
+    display: none;
+}
+
+div.accordion.Mui-expanded {
+    margin: 0;
+}
+
+div.expandedAccordion {
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+}

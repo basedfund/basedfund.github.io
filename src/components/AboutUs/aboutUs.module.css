@@ -1,0 +1,77 @@
+.blockWrapper {
+    background: #2C3242 url("/asset/img/background.webp") center no-repeat;
+    color: #fff;
+}
+
+.content {
+    padding: 110px 80px 167px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.topContent {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.leftBlock {
+    width: 45%;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 86px 0 113px;
+}
+
+.image {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        padding: 70px 40px;
+    }
+
+    .leftBlock {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 868px) {
+    .image {
+        height: auto;
+        width: 38%;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .content {
+        flex-direction: column;
+        padding: 70px 20px;
+    }
+
+    .leftBlock {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        margin-top: 40px;
+        display: none;
+    }
+
+    .textBlock {
+        margin: 50px 0;
+    }
+
+    .topContent span.bodyL {
+        font-size: 24px;
+    }
+}
