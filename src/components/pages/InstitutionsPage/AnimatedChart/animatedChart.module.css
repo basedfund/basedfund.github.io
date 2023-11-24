@@ -1,0 +1,20 @@
+.svgWrapper {
+    width: 100%;
+    transform: scaleY(-1);
+    position: absolute;
+    top: -220px;
+}
+
+@media screen and (max-width: 1024px) {
+    .svgWrapper {
+        width: 85%;
+        top: -135px;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .svgWrapper {
+        display: none;
+    }
+}
