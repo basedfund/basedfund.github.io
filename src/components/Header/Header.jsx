@@ -69,7 +69,7 @@ export const Header = () => {
               Sign up
             </Link>
 
-            <BRButton text="Connect Wallet" variant="containedDark" />
+            <BRButton text="Login" variant="containedDark" />
           </div>
         </>
         {/*)}*/}

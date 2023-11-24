@@ -41,31 +41,23 @@
     },
     "faq": {
       "title": "Frequently Asked Question’s",
-      "description": "Explore questions those are unclear for most of the users.",
+      "description": "Commonly asked questions:",
       "questions": [
         {
-          "title": "What is Bedrock Protocol",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          "title": "What is Bedrock",
+          "description": "Bedrock is a platform built on Ethereum focused on providing cutting edge investment strategies for investors. It is inspired by the strategies used in quantative hedgefunds and multi-strategy investment platforms."
         },
         {
-          "title": "How does Bedrock protocol works?",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          "title": "How does it work?",
+          "description": "You control your own funds and deposit it into a supported exchange. Once deposited, return to our website and select an existing strategy or build your own. Once ready you can activate it and monitor its performance. "
         },
         {
-          "title": "What does protocol & stable coins does Bedrock Support?",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          "title": "What underlying patterns are used?",
+          "description": "We employ a variety of quantative strategies to protect capital and capitalize on market movements including statistical arbitrage, trend following, relative value, scalping and funding arbitrage."
         },
         {
           "title": "Is there a token available",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
-        },
-        {
-          "title": "How can i connect with the team?",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
-        },
-        {
-          "title": "Ditus out I could have eaten that?",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          "description": "There is no publicly available token at this moment in time. We are planning to reward early adopters and contributors via our ERC-20 token once our governance model has been finalized.."
         }
       ]
     }
@@ -81,37 +73,14 @@
     "privacyPolicyLink": ""
   },
   "footer": {
-    "description": "Make your complicated Assets more simple and advanced.",
+    "description": "Simplifying Crypto investing.",
     "blocks": [
       {
         "title":"Bedrock",
         "links": [
-          {"text":"Trading Chart", "url":""},
+          {"text":"About", "url":""},
           {"text":"Strategies", "url": ""},
-          {"text":"Pricing", "url": ""}
-        ]
-      },
-      {
-        "title":"Products",
-        "links":[
-          {"text":"Personal", "url": ""},
-          {"text":"Business", "url": ""},
-          {"text":"Imvoice", "url": ""}
-        ]
-      },
-      {
-        "title":"Company",
-        "links": [
-          {"text":"About", "url": ""},
-          {"text":"Careers", "url": ""},
-          {"text":"Bedrock Bot", "url": ""}
-        ]
-      },
-      {
-        "title":"Community",
-        "links": [
-          {"text":"Refer a Friend", "url": ""},
-          {"text":"Gift", "url": ""}
+          {"text":"Careers", "url": ""}
         ]
       },
       {
@@ -229,19 +198,19 @@
     },
     "faq": {
       "title": "Frequently Asked Question’s",
-      "description": "Explore questions those are unclear for most of the users.",
+      "description": "Explore common questions.",
       "questions": [
         {
-          "title": "What is Bedrock Protocol",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          "title": "Is the institutional product a fund?",
+          "description": " We do not offer a fund at the moment. Our technology enables Family offices, Businesses and other financial entites to leverage our AI powered tools to trade on their behalf."
         },
         {
-          "title": "How does Bedrock protocol works?",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          "title": "How does it work?",
+          "description": "You control your own funds and deposit it into a supported exchange. Once deposited, return to our website and select an existing strategy or build your own. Once ready you can activate it and monitor its performance. "
         },
         {
-          "title": "What does protocol & stable coins does Bedrock Support?",
-          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          "title": "What underlying patterns are used?",
+          "description": "We employ a variety of quantative strategies to protect capital and capitalize on market movements including statistical arbitrage, trend following, relative value, scalping and funding arbitrage."
         }
       ]
     }
