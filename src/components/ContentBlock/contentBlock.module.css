@@ -1,0 +1,9 @@
+.wrapper {
+    text-align: center;
+}
+
+.textWrapper {
+    max-width: 846px;
+    text-align: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.dark .arrow svg path {
+    fill: #CECECE
+}
+
+.arrow {
+    position: absolute;
+    border-radius: 100px;
+    border: 1px solid #909090;
+    z-index: 1;
+    bottom: 55px;
+    height: 66px;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.prevArrow {
+    left: 44px;
+}
+
+.prevArrow svg {
+    transform: rotate(180deg);
+}
+
+.arrow.disabled {
+    border-radius: 100px;
+    border: 1px solid rgba(144, 144, 144, 0.50);
+}
+
+.arrow.disabled svg path {
+    fill-opacity: 0.5;
+}
+
+.nextArrow {
+    left: 120px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        display: block;
+        width: inherit;
+    }
+}

@@ -1,0 +1,90 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxWrapper {
+    max-width: 510px;
+    margin-bottom: 80px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabel {
+    color: #FFF;
+    font-family: Urbanist Medium, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.64px;
+    margin-bottom: 24px;
+}
+
+div.input {
+    border-radius: 100px;
+    background: #2E2E2E;
+    padding: 16px 24px;
+    width: 300px;
+    color: rgba(215, 219, 229, 0.50);
+    font-family: Urbanist Regular, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.56px;
+}
+
+.subscriptionText {
+    color: rgba(215, 219, 229, 0.50);
+    font-family: Urbanist Regular, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+}
+
+.subscriptionTextWrapper {
+    margin-top: 16px;
+}
+
+.subscriptionTextWrapper a {
+    color: #FFF;
+    font-family: Urbanist Regular, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    text-decoration-line: underline;
+}
+
+.inputBlock {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 868px) {
+    .wrapper {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .boxWrapper {
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+
+    .boxWrapper h2 {
+        font-size: 55px;
+    }
+
+    .subscriptionTextWrapper {
+        margin-bottom: 30px;
+    }
+}

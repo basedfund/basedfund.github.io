@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Urbanist Regular';
+    src: url('/fonts/Urbanist/Urbanist-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Urbanist Bold';
+    src: url('/fonts/Urbanist/Urbanist-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Urbanist Medium';
+    src: url('/fonts/Urbanist/Urbanist-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Urbanist SemiBold';
+    src: url('/fonts/Urbanist/Urbanist-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Urbanist ExtraBold';
+    src: url('/fonts/Urbanist/Urbanist-ExtraBold.ttf') format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    margin: 0 auto;
+    padding-top: 132px;
+}

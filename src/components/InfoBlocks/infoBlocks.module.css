@@ -1,0 +1,12 @@
+.blocksWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 95px;
+}
+
+@media screen and (max-width: 768px) {
+    .blocksWrapper {
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,51 @@
+.blockWrapper {
+    border-radius: 40px;
+    background: #F6F7F9;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 44px;
+    padding-bottom: 0;
+    gap: 72px;
+}
+
+.blockWrapper.blockRow {
+    width: 100%;
+    flex-direction: row;
+    padding: 77px 0 56px 44px;
+}
+
+.blockWrapper img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1358px) {
+    .blockWrapper {
+        width: 48.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 869px) {
+    .blockWrapper.blockRow img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .blockWrapper {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blockWrapper {
+        width: 100%;
+        gap: 40px;
+    }
+
+    .blockWrapper.blockRow {
+        flex-direction: column;
+    }
+}
