@@ -1,3 +1,6 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
 import content from '@/asset/content.json';
 import Image from 'next/image';
 
@@ -11,8 +14,25 @@ export const HeroSection = () => {
   const {
     homePage: { mainsSection },
   } = content;
+  const router = useRouter();
 
   const { title, description, leftButton, rightButton } = mainsSection;
+
+  const scrollToFeature = () => {
+    const targetElement = document.querySelector('#features');
+    const offset = 80;
+    const targetPosition = targetElement.offsetTop - offset;
+
+    window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth',
+    });
+  };
+
+  const navigateToLogin = () => {
+    router.push('/login')
+  }
+
 
   return (
     <div className={styles.heroSectionWrapper}>
@@ -30,8 +50,8 @@ export const HeroSection = () => {
         <BRTypography text={description} variantMapping="bodyM" />
 
         <div className={styles.buttonsWrapper}>
-          <BRButton text={leftButton} variant="contained" />
-          <BRButton text={rightButton} variant="outlined" />
+          <BRButton text={leftButton} variant="contained" onClick={navigateToLogin} />
+          <BRButton text={rightButton} variant="outlined" onClick={scrollToFeature} />
         </div>
       </div>
     </div>
