@@ -40,3 +40,8 @@ html {
     margin: 0 auto;
     padding-top: 132px;
 }
+
+
+body:has(.opened) header {
+    padding-right: 15px;
+}
