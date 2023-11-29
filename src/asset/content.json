@@ -568,5 +568,11 @@
       },
       "buttonText": "SUBMIT"
     }
+  },
+  "careersPage": {
+    "title":  "Careers",
+    "descriptions": [{
+      "text": "careers"
+    }]
   }
 }
