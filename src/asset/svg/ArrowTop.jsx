@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const ArrowTop = (onClick, className) => {
+export const ArrowTop = (className) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,6 @@ export const ArrowTop = (onClick, className) => {
       height="20"
       viewBox="0 0 21 20"
       fill="none"
-      onClick={onClick}
       className={className}
     >
       <path

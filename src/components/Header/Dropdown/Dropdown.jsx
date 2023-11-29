@@ -24,9 +24,9 @@ export const Dropdown = ({ title, options, url, activeLinkClass }) => {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
-    console.log('sdsdsdsd');
     setAnchorEl(event.target.parentNode);
   };
+
   const handleClose = () => {
     setAnchorEl(null);
   };

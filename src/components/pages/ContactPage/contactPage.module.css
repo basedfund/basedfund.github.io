@@ -1,0 +1,97 @@
+.wrapper {
+    display: flex;
+    padding: 42px 180px 50px 70px;
+    gap: 65px;
+}
+
+.textWrapper {
+    max-width: 368px;
+}
+
+.textWrapper h4 {
+    margin-bottom: 48px;
+}
+
+.form {
+    width: 100%;
+    max-width: 563px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 70px;
+}
+
+div.setHeight {
+    min-height: 165px;
+}
+
+div.inputBox {
+    border-radius: 3px;
+    border: 1px solid #E3E3E8;
+}
+
+div.inputBox textarea {
+    padding: 0;
+}
+
+.message {
+    height: 171px;
+}
+
+.label {
+    color: #000;
+    font-family: "Urbanist Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.button {
+    margin: 0 120px;
+}
+.button button {
+    width: 100%;
+}
+
+.selectPlaceholder {
+    color: #B2B2B2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Urbanist Regular", sans-serif;
+}
+
+.selectWrapper svg {
+    margin-right: 19px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        display: flex;
+        padding: 40px;
+        gap: 65px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .textWrapper {
+        max-width: 100%;
+    }
+
+    .form {
+        margin-top: 0;
+    }
+
+    .button {
+        margin: 0 10%;
+    }
+
+}

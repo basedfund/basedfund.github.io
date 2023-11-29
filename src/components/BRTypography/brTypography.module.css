@@ -8,6 +8,18 @@ h1.headlineHero {
     letter-spacing: -2.88px;
     white-space: break-spaces;
 }
+
+h1.headline1 {
+    color: #050505;
+    font-family: 'Urbanist Medium', sans-serif;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100px;
+    letter-spacing: -2.88px;
+    white-space: break-spaces;
+}
+
 h2.headline2 {
     color: #050505;
     font-family: Urbanist, sans-serif;
@@ -39,6 +51,28 @@ h4.headline4 {
     text-align: start;
 }
 
+h5.headline5 {
+    color: #050505;
+    font-family: 'Urbanist Medium', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 112.5% */
+    letter-spacing: -0.5px;
+    text-align: start;
+}
+
+h6.headline6 {
+    color: #050505;
+    font-family: 'Urbanist Medium', sans-serif;
+    font-size: 21.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 112.5% */
+    letter-spacing: -0.5px;
+    text-align: start;
+}
+
 span.bodyL {
     color: #918EA4;
     font-family: "Urbanist Regular", sans-serif;
@@ -48,6 +82,7 @@ span.bodyL {
     line-height: 32px; /* 160% */
     letter-spacing: -0.8px;
     text-align: start;
+    white-space: break-spaces;
 }
 
 span.bodyM {
