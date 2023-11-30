@@ -3,8 +3,14 @@
     "mainsSection": {
       "title": "Automated\nCrypto Investing Powered by AI",
       "description": "Leverage our artificial intelligence strategies to stop speculating and increase your returns* Professional investors can create and test strategies using our tool kits and exchange integrations. ",
-      "leftButton": "Get Started",
-      "rightButton": "Explore more"
+      "rightButton": {
+        "text": "Explore more",
+        "url": "/contact"
+      },
+      "leftButton": {
+        "text":"Get Started",
+        "url": "/login"
+      }
     },
     "whatWeDo": {
       "title": "What we do",
@@ -105,8 +111,14 @@
     "mainsSection": {
       "title": "AI Powered Investing for your fund or RIA",
       "description": "Enhance your portfolio with meticulously trained strategies, offering diversified and uncorrelated returns. A dedicated offering for money managers, family offices and advisors. ",
-      "leftButton": "Get Started",
-      "rightButton": "Talk to Sales"
+      "rightButton": {
+        "text":"Talk to Sales",
+        "url": "/contact"
+      },
+      "leftButton": {
+        "text":"Get Started",
+        "url": ""
+      }
     },
     "statistic": {
       "options": [
@@ -271,26 +283,33 @@
       "url": ""
     }
   ],
-  "header": [
-    {
-      "title": "For Individuals",
-      "options": [],
-      "url": "/"
-    },
-    {
-      "title": "For Institutions",
-      "options": [],
-      "url":  "/institutions"
-    },
-    {
-      "title": "Features",
-      "url":  "#features"
-    },
-    {
-      "title": "FAQ’s",
-      "url":  "#faq"
+  "header": {
+    "menu": [
+      {
+        "title": "For Individuals",
+        "options": [],
+        "url": "/"
+      },
+      {
+        "title": "For Institutions",
+        "options": [],
+        "url": "/institutions"
+      },
+      {
+        "title": "Features",
+        "url": "#features"
+      },
+      {
+        "title": "FAQ’s",
+        "url": "#faq"
+      }
+    ],
+    "blackButton": "Join Waitlist",
+    "signUpLink": {
+      "text": "Sign up",
+      "url": "https://bedrock-protocol-test-123.web.app/"
     }
-  ],
+  },
   "aboutUsPage": {
     "title":  "About Us",
     "descriptions": [
