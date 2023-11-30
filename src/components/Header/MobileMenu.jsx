@@ -43,7 +43,7 @@ export const MobileMenu = ({ handleClick }) => {
           </IconButton>
         </div>
         <ul className={styles.linkList}>
-          {header.map((item, index) => {
+          {header.menu.map((item, index) => {
             const activeClassName = router === item.url ? styles.activeLink : '';
 
             return (
@@ -74,11 +74,13 @@ export const MobileMenu = ({ handleClick }) => {
           })}
         </ul>
         <div className={styles.buttonWrapper}>
-          <Link href="#" prefetch={false} className={styles.signUpLink}>
-            Sign up
-          </Link>
+          {header.signUpLink.text && (
+            <Link href={header.signUpLink.url} prefetch={false} className={styles.signUpLink}>
+              {header.signUpLink.text}
+            </Link>
+          )}
 
-          <BRButton text="Connect Wallet" variant="containedDark" />
+          <BRButton text={header.blackButton} variant="containedDark" onClick={(e) => handleClick(e, '/waitlist')} />
         </div>
       </Drawer>
       <IconButton onClick={toggleSidebar}>

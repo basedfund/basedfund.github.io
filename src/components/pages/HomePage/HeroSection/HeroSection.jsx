@@ -1,8 +1,8 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import content from '@/asset/content.json';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 import BRButton from '@/components/BRButton/BRButton';
 import { BRTypography } from '@/components/BRTypography';
@@ -24,15 +24,18 @@ export const HeroSection = () => {
     const targetPosition = targetElement.offsetTop - offset;
 
     window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth',
+      top: targetPosition,
+      behavior: 'smooth',
     });
   };
 
-  const navigateToLogin = () => {
-    router.push('/login')
-  }
-
+  const handleOpenURl = (url) => {
+    if (url.includes('https://')) {
+      window.open(url, '_self');
+    } else {
+      router.push(url);
+    }
+  };
 
   return (
     <div className={styles.heroSectionWrapper}>
@@ -50,8 +53,8 @@ export const HeroSection = () => {
         <BRTypography text={description} variantMapping="bodyM" />
 
         <div className={styles.buttonsWrapper}>
-          <BRButton text={leftButton} variant="contained" onClick={navigateToLogin} />
-          <BRButton text={rightButton} variant="outlined" onClick={scrollToFeature} />
+          <BRButton text={leftButton.text} variant="contained" onClick={() => handleOpenURl(leftButton.url)} />
+          <BRButton text={rightButton.text} variant="outlined" onClick={scrollToFeature} />
         </div>
       </div>
     </div>

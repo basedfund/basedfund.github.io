@@ -43,7 +43,7 @@ export const Header = () => {
         <MobileMenu handleClick={handleClick} />
         <>
           <ul className={`${styles.linkList} ${styles.desktopNav}`}>
-            {header.map((item) => {
+            {header.menu.map((item) => {
               const activeClassName = router === item.url ? styles.activeLink : '';
 
               return (
@@ -65,14 +65,15 @@ export const Header = () => {
             })}
           </ul>
           <div className={`${styles.buttonWrapper} ${styles.desktopNav}`}>
-            <Link href="#" prefetch={false} className={styles.signUpLink}>
-              Sign up
-            </Link>
+            {header.signUpLink.text && (
+              <Link href={header.signUpLink.url} prefetch={false} className={styles.signUpLink}>
+                {header.signUpLink.text}
+              </Link>
+            )}
 
-            <BRButton text="Login" variant="containedDark" />
+            <BRButton text={header.blackButton} variant="containedDark" onClick={(e) => handleClick(e, '/waitlist')} />
           </div>
         </>
-        {/*)}*/}
       </Wrapper>
     </header>
   );

@@ -2,6 +2,7 @@
 
 import content from '@/asset/content.json';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 import BRButton from '@/components/BRButton/BRButton';
 import { BRTypography } from '@/components/BRTypography';
@@ -11,11 +12,20 @@ import heroImage from '../../../../../public/asset/img/hero_inst.png';
 import styles from './heroSection.module.css';
 
 export const HeroSection = () => {
+  const router = useRouter();
   const {
     institutionsPage: { mainsSection },
   } = content;
 
   const { title, description, leftButton, rightButton } = mainsSection;
+
+  const handleOpenURl = (url) => {
+    if (url.includes('https://')) {
+      window.open(url, '_self');
+    } else {
+      router.push(url);
+    }
+  };
 
   return (
     <div className={styles.heroSectionWrapper}>
@@ -34,8 +44,8 @@ export const HeroSection = () => {
           <BRTypography text={description} variantMapping="bodyM" />
 
           <div className={styles.buttonsWrapper}>
-            <BRButton text={leftButton} variant="contained" />
-            <BRButton text={rightButton} variant="outlined" />
+            <BRButton text={leftButton.text} variant="contained" onClick={() => handleOpenURl(leftButton.url)} />
+            <BRButton text={rightButton.text} variant="outlined" onClick={() => handleOpenURl(rightButton.url)} />
           </div>
         </div>
       </div>
