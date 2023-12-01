@@ -22,13 +22,18 @@ export const Header = () => {
 
     if (url.includes('#')) {
       const targetElement = document.querySelector(url);
-      const offset = 80;
-      const targetPosition = targetElement.offsetTop - offset;
 
-      window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth',
-      });
+      if (targetElement) {
+        const offset = 80;
+        const targetPosition = targetElement.offsetTop - offset;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth',
+        });
+      } else {
+        route.push(`/${url}`);
+      }
     } else {
       route.push(url);
     }
