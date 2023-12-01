@@ -33,7 +33,12 @@ export const ContactPage = () => {
             <BRTypography text={title} variantMapping="headline4" />
             <BRTypography text={description} variantMapping="bodyM" />
           </div>
-          <form action="https://formspree.io/f/mbjbrplr" method="POST" className={styles.form}>
+          <form
+            action="https://formspree.io/f/mbjbrplr"
+            method="POST"
+            className={styles.form}
+            onSubmit={(e) => e.target.reset()}
+          >
             <BRTextField label={name.label} name="name" required />
             <BRTextField type="email" label={email.label} name="email" required />
             <FormControl fullWidth>
