@@ -92,7 +92,7 @@
       {
         "title":"Support",
         "links": [
-          {"text":"Help", "url": ""},
+          {"text":"Help", "url": "https://bedrock-protocol.gitbook.io/bedrock-protocol-documentation/"},
           {"text":"FAQ", "url": "#faq"},
           {"text":"Contact", "url": "/contact"}
         ]
