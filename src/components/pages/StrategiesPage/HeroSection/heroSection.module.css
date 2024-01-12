@@ -1,0 +1,57 @@
+.heroSectionWrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.buttonsWrapper {
+    display: flex;
+    gap: 24px;
+    margin-top: 56px;
+}
+
+.textWrapper {
+    width: 47%;
+    padding: 56px 0 0 30px;
+}
+
+@media screen and (max-width: 1280px) {
+    .heroSectionWrapper {
+        padding-right: 20px
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .heroSectionWrapper .imgWrapper {
+        width: 45%;
+    }
+
+    .imgWrapper img {
+        width: 100%;
+    }
+
+    .heroSectionWrapper {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .textWrapper {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .heroSectionWrapper .imgWrapper {
+        display: none;
+    }
+
+
+    .heroSectionWrapper h1 {
+        white-space: inherit;
+    }
+
+    .buttonsWrapper {
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+}
