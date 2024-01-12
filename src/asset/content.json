@@ -296,8 +296,8 @@
         "url": "/institutions"
       },
       {
-        "title": "Features",
-        "url": "#features"
+        "title": "Strategies",
+        "url": "/strategies"
       },
       {
         "title": "FAQ’s",
@@ -593,5 +593,41 @@
     "descriptions": [{
       "text": "We're actively looking for individuals with startup experience and interest in growing the number of users and companies adopting cryptocurrencies. We are a remote-first team with staff in the U.S, Europe and Asia. We like candidates with a sense of urgency and relentless curiosity. At the moment we are in need of Full Stack Engineers with experience in Typescript & node.js, Business development staff with at least 2 years selling to RIAs, Fund managers and financial services companies and smart contract engineers that have a deep understanding of the EVM and optimization."
     }]
+  },
+  "strategiesPage": {
+    "mainsSection": {
+      "title": "Investment Strategies",
+      "description": "Leverage the experience of a team of researchers and traders to augment your buy and hold portfolio. From trend following to arbitrage we employ a variety of methods to grow your crypto investments.",
+      "leftButton": {
+        "text": "Get Started",
+        "url": "/contact"
+      }
+    },
+    "blocks": [
+      {
+        "title": "Statistical Arbitrage",
+        "description": "We use systematic and algorithmic methods to consistently generate returns of 17% or more, regardless of market conditions and with minimal correlation to the broader markets. ",
+        "image": "/asset/svg/Statistical_Arbitrage.svg",
+        "icon": "/asset/svg/bank.svg"
+      },
+      {
+        "title": "Dollar Cost Average like a Pro",
+        "description": "Connect your bank account and begin to build  a long-term position in select tokens and coins by buying opportunistically  in regular intervals.",
+        "image": "/asset/svg/Dollar_Cost_Average.svg",
+        "icon": "/asset/svg/line-chart-up.svg"
+      },
+      {
+        "title": "Multi-Strategy",
+        "description": "Enhance your crypto portfolio with our flagship strategy, crafted to match the returns of buy-and-hold strategies but with significantly lower volatility. Ideal as a foundational investment, this fund is designed to be a stable cornerstone in any investor's portfolio",
+        "image": "/asset/svg/Multi-Strategy.svg",
+        "icon": "/asset/svg/line-chart-up.svg"
+      },
+      {
+        "title": "Trend Following",
+        "description": "A dynamic strategy harnessing market momentum. This approach balances risk and return, adapting seamlessly to long-term market movements.",
+        "image": "/asset/svg/Trend_Following.svg",
+        "icon": "/asset/svg/bank.svg"
+      }
+    ]
   }
 }
