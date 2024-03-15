@@ -10,6 +10,7 @@ const variantMappingList = {
   headline4: 'h4',
   headline5: 'h5',
   headline6: 'h6',
+  subtitle: 'span',
   bodyXL: 'span',
   bodyL: 'span',
   bodyM: 'span',

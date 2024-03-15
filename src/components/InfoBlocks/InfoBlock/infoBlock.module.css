@@ -1,13 +1,17 @@
 .blockWrapper {
     border-radius: 40px;
-    background: #F6F7F9;
+    background: #fff;
     width: 49%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 44px;
     padding-bottom: 0;
     gap: 72px;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 44px 44px 0;
 }
 
 .blockWrapper.blockRow {
@@ -19,6 +23,41 @@
 .blockWrapper img {
     width: 100%;
     height: auto;
+}
+
+.blockWrapper.dark {
+    background: #161616;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.blockWrapper.dark h4 {
+    color: #fff;
+}
+
+.imgWrapper {
+    padding: 44px 44px 0;
+    border-radius: 0 0 40px 40px;
+    height: 421px;
+    display: flex;
+}
+
+.blockRow .imgWrapper, .blockRow .content {
+    padding: 0;
+    border-radius: 0;
+    height: auto;
+}
+
+.blockWrapper.dark .imgWrapper {
+    background: #fff;
+}
+
+.blockWrapper.blockRow .imgWrapper {
+    background: none;
+}
+
+.blockWrapper.light .imgWrapper {
+    background: #161616;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media screen and (max-width: 1358px) {

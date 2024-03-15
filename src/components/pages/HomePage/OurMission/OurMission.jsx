@@ -2,26 +2,24 @@ import content from '@/asset/content.json';
 import { sanitizeText } from '@/utils/sanitizer';
 
 import { ContentBlock } from '@/components/ContentBlock';
-import { InfoBlocks } from '@/components/InfoBlocks';
 
-import styles from './whatWeDo.module.css';
+import styles from './ourMission.module.css';
 
-export const WhatWeDo = () => {
+export const OurMission = () => {
   const {
-    homePage: { whatWeDo },
+    homePage: { ourMission },
   } = content;
 
-  const { title, description, blocks, subtitle } = whatWeDo;
+  const { title, description, blocks, subtitle } = ourMission;
 
   return (
     <ContentBlock
       title={<span dangerouslySetInnerHTML={{ __html: sanitizeText(title) }} />}
-      subtitle={subtitle.toUpperCase()}
+      subtitle={subtitle}
       description={description}
       className={styles.blockWrapper}
-      id="features"
     >
-      <InfoBlocks blocks={blocks} />
+      {/*<InfoBlocks blocks={blocks} />*/}
     </ContentBlock>
   );
 };

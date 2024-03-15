@@ -1,0 +1,9 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    mix-blend-mode: luminosity;
+    padding-top: 63px;
+    margin-bottom: 185px;
+}

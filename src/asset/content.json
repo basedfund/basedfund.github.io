@@ -1,7 +1,7 @@
 {
   "homePage": {
     "mainsSection": {
-      "title": "Automated\nCrypto Investing Powered by AI",
+      "title": "<span class='text-with-background'>Automated</span> Cryptocurrency <span class='gray-text'>Investment</span> Made Easy",
       "description": "Leverage our artificial intelligence strategies to stop speculating and increase your returns* Professional investors can create and test strategies using our tool kits and exchange integrations. ",
       "rightButton": {
         "text": "Explore more",
@@ -10,27 +10,75 @@
       "leftButton": {
         "text":"Get Started",
         "url": "/waitlist"
-      }
+      },
+      "tags": [
+        {
+          "text": "secure",
+          "variant": "light"
+        },
+        {
+          "text": "DeFi Trading",
+          "variant": "color"
+        },
+        {
+          "text": "&",
+          "variant": "text"
+        },
+        {
+          "text": "Automated Strategies",
+          "variant": "light"
+        }
+      ]
     },
     "whatWeDo": {
-      "title": "What we do",
+      "subtitle": "What we do",
+      "title": "Maximize <span class='gray-text-dark-background'>Returns</span> in any Market",
       "description": "We built Bedrock to support our own advanced trading needs. The team is composed of researchers, fin-tech professionals, and smart contract engineers.",
       "blocks": [
         {
-          "title": "Deposit funds into a supported exchange.",
-          "description": "Connect your exchange(s) and select which AI strategy you would like to deploy. Monitor performance and adjust as the markets evolve.",
-          "image": "/asset/img/supported_exchange.jpg"
+          "title": "Deposit funds",
+          "description": "Deposit funds into your Bedrock wallet and select which automated strategy you would like to deploy. Monitor performance and adjust as the markets evolve.",
+          "image": "/asset/img/depositFunds.png",
+          "theme": "light"
         },
         {
           "title": "Employ an AI strategy to grow your account.",
           "description": "Take advantage of our tested solutions to grow your account or employ different strategies regardless of a bull, or bear market.",
-          "image": "/asset/svg/employ_ai_strategy.svg"
+          "image": "/asset/img/employ_ai_strategy.png",
+          "theme": "dark"
         },
         {
-          "title": "Monitor Performance",
+          "title": "Track Results in Real-time",
           "description": "Track, pause or change your strategies based on market performance. ",
-          "image": "/asset/svg/Monitor-Performance.svg",
-          "imagePosition": "right"
+          "image": "/asset/img/trackResults.png",
+          "imagePosition": "right",
+          "theme": "dark"
+        }
+      ]
+    },
+    "ourMission": {
+      "subtitle": "Our Mission",
+      "title": "Crypto Investing Made <span class='color-text'>Easy",
+      "description": "Select from a variety of strategies and withdraw when your goals are met.",
+      "blocks": [
+        {
+          "title": "Deposit funds",
+          "description": "Deposit funds into your Bedrock wallet and select which automated strategy you would like to deploy. Monitor performance and adjust as the markets evolve.",
+          "image": "/asset/img/depositFunds.png",
+          "theme": "light"
+        },
+        {
+          "title": "Employ an AI strategy to grow your account.",
+          "description": "Take advantage of our tested solutions to grow your account or employ different strategies regardless of a bull, or bear market.",
+          "image": "/asset/img/employ_ai_strategy.png",
+          "theme": "dark"
+        },
+        {
+          "title": "Track Results in Real-time",
+          "description": "Track, pause or change your strategies based on market performance. ",
+          "image": "/asset/img/trackResults.png",
+          "imagePosition": "right",
+          "theme": "dark"
         }
       ]
     },
@@ -286,28 +334,23 @@
   "header": {
     "menu": [
       {
-        "title": "For Individuals",
+        "title": "Home",
         "options": [],
         "url": "/"
       },
       {
-        "title": "For Institutions",
+        "title": "For Companies",
         "options": [],
         "url": "/institutions"
-      },
-      {
-        "title": "Strategies",
-        "url": "/investmen-strategies"
-      },
-      {
-        "title": "FAQ’s",
-        "url": "#faq"
       }
     ],
     "blackButton": "Join Waitlist",
     "signUpLink": {
       "text": "Sign up",
       "url": ""
+    },
+    "topBlock": {
+      "text": "Automated Trading on Uniswap"
     }
   },
   "aboutUsPage": {
