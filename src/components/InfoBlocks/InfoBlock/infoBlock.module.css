@@ -11,7 +11,7 @@
 }
 
 .content {
-    padding: 44px 44px 0;
+    padding: 44px;
 }
 
 .blockWrapper.blockRow {
@@ -30,8 +30,16 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.blockWrapper span {
+    color: #7C7C7C;
+}
+
 .blockWrapper.dark h4 {
     color: #fff;
+}
+
+.blockWrapper.dark span {
+    color: #918EA4;
 }
 
 .imgWrapper {

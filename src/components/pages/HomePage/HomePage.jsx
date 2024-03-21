@@ -11,7 +11,7 @@ import { FAQ } from 'src/components/FAQ';
 
 export const HomePage = () => {
   const {
-    homePage: { whatIsBedrock, faq },
+    homePage: { faq },
   } = content;
 
   return (
@@ -21,10 +21,9 @@ export const HomePage = () => {
         <Wrapper>
           <Cryptocurrency />
           <WhatWeDo />
-          <OurMission />
         </Wrapper>
+        <OurMission />
       </div>
-      <AboutUs {...whatIsBedrock} />
       <Wrapper>
         <FAQ faq={faq} />
       </Wrapper>

@@ -11,7 +11,7 @@ export const Slide = ({ title, description, image, icon, customClassName = '', i
       <div className={styles.textWrapper}>
         <IconBlock icon={icon} />
         <BRTypography text={title} variantMapping="headline4" style={{ marginBottom: '24px' }} />
-        <BRTypography text={description} variantMapping="bodyL" />
+        <BRTypography text={description} variantMapping="bodyL" style={{ color: '#918EA4' }} />
       </div>
       {image && (
         <Image

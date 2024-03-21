@@ -9,7 +9,7 @@ import { Slide } from '@/components/Carousel/Slide';
 import styles from './carousel.module.css';
 
 export const Carousel = ({ slides }) => {
-  const [slideTheme, setSlideTheme] = useState();
+  const [slideTheme, setSlideTheme] = useState(slides[0].theme);
 
   const handleChange = (selectedIndex) => {
     setSlideTheme(slides[selectedIndex]?.theme);

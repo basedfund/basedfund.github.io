@@ -46,7 +46,9 @@ export const Header = () => {
   const handleNavigation = (e) => {
     const scrollPosition = e.currentTarget.scrollY;
 
-    headerRef.current.style.top = scrollPosition < 35 ? 'auto' : 0;
+    if (headerRef?.current) {
+      headerRef.current.style.top = scrollPosition < 35 ? 'auto' : 0;
+    }
   };
 
   useEffect(() => {

@@ -1,6 +1,5 @@
 .block {
-    max-width: 256px;
-    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -10,8 +9,4 @@
     display: flex;
     align-items: center;
     gap: 12px;
-}
-
-.block span {
-    white-space: break-spaces;
 }

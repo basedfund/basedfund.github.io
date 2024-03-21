@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.arrow svg path {
+    fill: #141414
+}
+
 .dark .arrow svg path {
     fill: #CECECE
 }
@@ -11,11 +15,8 @@
 .arrow {
     position: absolute;
     border-radius: 100px;
-    border: 1px solid #909090;
     z-index: 1;
     bottom: 55px;
-    height: 66px;
-    width: 66px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +24,7 @@
 }
 
 .prevArrow {
-    left: 44px;
+    left: 79px;
 }
 
 .prevArrow svg {
@@ -31,8 +32,8 @@
 }
 
 .arrow.disabled {
-    border-radius: 100px;
-    border: 1px solid rgba(144, 144, 144, 0.50);
+    opacity: 0.4;
+    width: 35px;
 }
 
 .arrow.disabled svg path {
@@ -40,7 +41,7 @@
 }
 
 .nextArrow {
-    left: 120px;
+    left: 146px;
 }
 
 
@@ -48,5 +49,17 @@
     .wrapper {
         display: block;
         width: inherit;
+    }
+
+    .arrow {
+        bottom: 30px;
+    }
+
+    .prevArrow {
+        left: 40px;
+    }
+
+    .nextArrow {
+        left: 110px;
     }
 }

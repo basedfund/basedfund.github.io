@@ -5,14 +5,14 @@ import { ContentBlock } from '@/components/ContentBlock';
 import { TextImgBlock } from '@/components/TextImgBlock';
 import { Wrapper } from '@/components/Wrapper';
 
-import styles from './ourMission.module.css';
+import styles from './whyBedrock.module.css';
 
-export const OurMission = () => {
+export const WhyBedrock = () => {
   const {
-    homePage: { ourMission },
+    companiesPage: { whyBedrock, blocks },
   } = content;
 
-  const { title, description, cards, subtitle, blocks } = ourMission;
+  const { title, description, cards, subtitle } = whyBedrock;
 
   return (
     <ContentBlock
@@ -36,7 +36,7 @@ export const OurMission = () => {
       <div className={styles.blockList}>
         <Wrapper className={styles.blocksWrapper}>
           {blocks.map((block) => (
-            <TextImgBlock {...block} key={block.title} />
+            <TextImgBlock {...block} key={block.title} fontSizeDescription={22} />
           ))}
         </Wrapper>
       </div>

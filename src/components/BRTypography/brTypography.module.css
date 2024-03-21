@@ -32,13 +32,14 @@ h2.headline2 {
 }
 
 h3.headline3 {
-    color: #050505;
-    font-family: 'Urbanist Medium', sans-serif;
-    font-size: 56px;
+    font-family: 'Urbanist Regular', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    line-height: 61px; /* 108.929% */
-    letter-spacing: -2.24px;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
 
 h4.headline4 {
@@ -114,6 +115,24 @@ span.subtitle {
     line-height: 150%;
     letter-spacing: -0.02em;
     color: #DEFC65;
+}
+
+@media screen and (max-width: 1280px) {
+    h1.headlineHero {
+        font-size: 60px;
+    }
+
+    h2.headline2 {
+        font-size: 50px;
+    }
+
+    h3.headline3 {
+        font-size: 46px;
+    }
+
+    h4.headline4 {
+        font-size: 36px;
+    }
 }
 
 @media screen and (max-width: 868px) {

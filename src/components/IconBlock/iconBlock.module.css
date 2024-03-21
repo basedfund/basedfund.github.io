@@ -17,3 +17,9 @@
     justify-content: center;
     margin-bottom: 47px;
 }
+
+@media screen and (max-width: 1025px) {
+    .iconWrapper {
+        margin-bottom: 30px;
+    }
+}

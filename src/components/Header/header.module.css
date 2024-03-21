@@ -6,6 +6,7 @@
     width: 100%;
     backdrop-filter: blur(35px);
     z-index: 10;
+    background: #ffffff2b;
 }
 
 .wrapper .header {
@@ -68,7 +69,6 @@
 
 .activeLink {
     padding: 10px 7px;
-    width: 258px;
     height: 37px;
     background: #FFFFFF;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
@@ -144,21 +144,12 @@
         padding: 20px 30px;
     }
 
-    .linkList {
-        flex-direction: column;
-        gap: 35px;
-        margin-top: 20px;
-    }
-
     .link, .signUpLink {
         font-size: 18px;
     }
 
     .buttonWrapper {
-        flex-direction: column;
         gap: 35px;
-        align-items: flex-start;
-        margin-top: 35px;
     }
 
     .sublink {
@@ -174,17 +165,20 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .desktopNav {
-        display: none;
-    }
-}
-
 .mobNav {
     display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
+    .link {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .desktopNav {
+        display: none;
+    }
+
     .mobNav {
         display: block;
     }

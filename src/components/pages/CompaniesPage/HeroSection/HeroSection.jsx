@@ -1,20 +1,20 @@
 'use client';
 
 import content from '@/asset/content.json';
+import { sanitizeText } from '@/utils/sanitizer';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 import BRButton from '@/components/BRButton/BRButton';
 import { BRTypography } from '@/components/BRTypography';
-import { AnimatedChart } from '@/components/pages/InstitutionsPage/AnimatedChart';
 
-import heroImage from '../../../../../public/asset/img/hero_inst.png';
+import heroImage from '../../../../../public/asset/img/for-companiesHero.png';
 import styles from './heroSection.module.css';
 
 export const HeroSection = () => {
   const router = useRouter();
   const {
-    institutionsPage: { mainsSection },
+    companiesPage: { mainsSection },
   } = content;
 
   const { title, description, leftButton, rightButton } = mainsSection;
@@ -40,16 +40,18 @@ export const HeroSection = () => {
           />
         </div>
         <div className={styles.textWrapper}>
-          <BRTypography text={title} variantMapping="headlineHero" />
+          <BRTypography
+            text={<span dangerouslySetInnerHTML={{ __html: sanitizeText(title) }} />}
+            variantMapping="headlineHero"
+          />
           <BRTypography text={description} variantMapping="bodyM" />
 
           <div className={styles.buttonsWrapper}>
             <BRButton text={leftButton.text} variant="contained" onClick={() => handleOpenURl(leftButton.url)} />
-            <BRButton text={rightButton.text} variant="outlined" onClick={() => handleOpenURl(rightButton.url)} />
+            <BRButton text={rightButton.text} variant="containedDark" onClick={() => handleOpenURl(rightButton.url)} />
           </div>
         </div>
       </div>
-      <AnimatedChart />
     </div>
   );
 };

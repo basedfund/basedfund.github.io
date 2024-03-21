@@ -1,20 +1,21 @@
 'use client';
 
 import content from '@/asset/content.json';
+import { sanitizeText } from '@/utils/sanitizer';
 
 import { Carousel } from '@/components/Carousel';
+import { ContentBlock } from '@/components/ContentBlock';
 import { InfoBlocks } from '@/components/InfoBlocks';
-import { SmallBlock } from '@/components/pages/InstitutionsPage/Statistic/SmallBlock';
-import { StatItem } from '@/components/pages/InstitutionsPage/Statistic/StatItem/StatItem';
+import { StatItem } from '@/components/pages/CompaniesPage/Statistic/StatItem/StatItem';
 
 import styles from './statistic.module.css';
 
 export const Statistic = () => {
   const {
-    institutionsPage: { statistic },
+    companiesPage: { statistic },
   } = content;
 
-  const { blocks, slider, smallBlocks, options } = statistic;
+  const { blocks, slider, options, title, subtitle, description } = statistic;
 
   return (
     <div>
@@ -23,14 +24,15 @@ export const Statistic = () => {
           <StatItem {...item} key={item.title} />
         ))}
       </div>
+      <ContentBlock
+        title={<span dangerouslySetInnerHTML={{ __html: sanitizeText(title) }} />}
+        subtitle={subtitle.toUpperCase()}
+        description={description}
+      />
       <div className={styles.contentBlock} id="features">
         <InfoBlocks blocks={blocks} customClassName={styles.infoBlock} />
         <Carousel slides={slider} />
-        <div className={styles.smallBlocksWrapper}>
-          {smallBlocks.map((block) => (
-            <SmallBlock {...block} key={block.text} />
-          ))}
-        </div>
+        <div className={styles.smallBlocksWrapper}></div>
       </div>
     </div>
   );

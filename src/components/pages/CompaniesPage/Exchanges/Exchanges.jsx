@@ -7,7 +7,7 @@ import styles from './exchanges.module.css';
 
 export const Exchanges = () => {
   const {
-    institutionsPage: { exchangesBlock },
+    companiesPage: { exchangesBlock },
   } = content;
 
   const { title, description } = exchangesBlock;

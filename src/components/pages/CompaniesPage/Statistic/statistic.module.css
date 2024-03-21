@@ -16,6 +16,7 @@
 .statWrapper {
     display: flex;
     justify-content: space-around;
+    padding: 44px 0 110px;
 }
 
 @media screen and (max-width: 950px) {

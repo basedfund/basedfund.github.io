@@ -1,5 +1,5 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="line-chart-up-02">
-<path id="Icon" d="M3.2002 3.19995V28.7999H28.8002M9.60019 19.2001L15.2002 13.6001L19.2002 17.6001L26.4004 10.3999" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Icon" d="M3.2002 3.19995V28.7999H28.8002M9.60019 19.2001L15.2002 13.6001L19.2002 17.6001L26.4004 10.3999" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </svg>
