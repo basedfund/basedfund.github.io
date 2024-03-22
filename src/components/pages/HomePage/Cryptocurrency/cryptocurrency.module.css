@@ -7,3 +7,9 @@
     padding-top: 63px;
     margin-bottom: 185px;
 }
+
+@media screen and (max-width: 1115px) {
+    .list {
+        margin-bottom: 100px;
+    }
+}

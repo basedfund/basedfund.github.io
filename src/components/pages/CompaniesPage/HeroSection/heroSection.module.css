@@ -39,12 +39,18 @@
 
     .heroSectionWrapper .imgWrapper {
         width: 40%;
-    }}
+        margin-left: 15px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .heroSectionWrapper {
         padding-right: 5px;
         padding-bottom: 130px;
+    }
+
+    .heroContent {
+        gap: 40px;
     }
 }
 

@@ -46,6 +46,12 @@ html {
     padding-top: 132px;
 }
 
+@media screen and (max-width: 1115px) {
+    .page-wrapper {
+        padding-top: 90px;
+    }
+}
+
 
 body:has(.opened) header {
     padding-right: 15px;
