@@ -25,6 +25,11 @@
     src: url('/fonts/Urbanist/Urbanist-ExtraBold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'PlayfairDisplay SemiBold';
+    src: url('/fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -41,7 +46,45 @@ html {
     padding-top: 132px;
 }
 
+@media screen and (max-width: 1115px) {
+    .page-wrapper {
+        padding-top: 90px;
+    }
+}
+
 
 body:has(.opened) header {
     padding-right: 15px;
+}
+
+body {
+    background: url('/asset/svg/bg.svg') no-repeat top center;
+}
+
+span.text-with-background {
+    display: inline-block;
+    background: #050505;
+    font-family: 'PlayfairDisplay SemiBold', serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 0 15px;
+}
+
+span.gray-text {
+    color: rgba(5, 5, 5, 0.6);
+}
+
+.backgroundDark {
+    background: #050505;
+}
+
+.gray-text-dark-background {
+    color: rgba(225, 225, 225, 0.6);
+}
+
+.color-text {
+    color: #DEFC65;
 }

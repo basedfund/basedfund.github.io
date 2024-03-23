@@ -19,7 +19,6 @@ export const Footer = () => {
 
   return (
     <footer className={styles.footerWrapper}>
-      <div className={styles.whiteBlock}></div>
       <div className={styles.content}>
         <div className={styles.footer}>
           <Subscription />

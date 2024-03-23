@@ -6,6 +6,7 @@
     width: 100%;
     backdrop-filter: blur(35px);
     z-index: 10;
+    background: #ffffff2b;
 }
 
 .wrapper .header {
@@ -24,7 +25,11 @@
 
 .linkList {
     display: flex;
-    gap: 50px;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    background: rgba(5, 5, 5, 0.03);
+    border-radius: 100px;
 }
 
 .linkList li {
@@ -32,16 +37,17 @@
 }
 
 .link {
-    color: #050505;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
+    font-family: 'Urbanist Medium', sans-serif;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: -0.32px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.05em;
+    color: rgba(5, 5, 5, 0.4);
+    width: 258px;
     text-decoration: none;
-    display: flex;
-    align-items: center;
+    display: block;
+    text-align: center;
 }
 
 .buttonWrapper {
@@ -62,8 +68,42 @@
 }
 
 .activeLink {
-    color: #4DB2A8;
-    text-decoration: underline;
+    padding: 10px 7px;
+    height: 37px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 100px;
+    color: rgba(5, 5, 5);
+}
+
+.topBlock {
+    width: 100%;
+    background: rgba(222, 252, 101, 0.3);
+    height: 40px;
+    font-family: 'Urbanist Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.01em;
+    color: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+}
+
+.newText {
+    background: #DEFC65;
+    border-radius: 99px;
+    padding: 4px 12px;
+    font-family: 'Urbanist Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #050505;
 }
 
 .linkWrapper {
@@ -83,6 +123,16 @@
     align-items: center;
 }
 
+.closeButton {
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 105px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1280px) {
     .wrapper .header {
         padding: 40px;
@@ -94,21 +144,12 @@
         padding: 20px 30px;
     }
 
-    .linkList {
-        flex-direction: column;
-        gap: 35px;
-        margin-top: 20px;
-    }
-
     .link, .signUpLink {
         font-size: 18px;
     }
 
     .buttonWrapper {
-        flex-direction: column;
         gap: 35px;
-        align-items: flex-start;
-        margin-top: 35px;
     }
 
     .sublink {
@@ -124,17 +165,20 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .desktopNav {
-        display: none;
-    }
-}
-
 .mobNav {
     display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
+    .link {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .desktopNav {
+        display: none;
+    }
+
     .mobNav {
         display: block;
     }

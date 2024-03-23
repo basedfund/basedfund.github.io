@@ -1,0 +1,47 @@
+div.blockWrapper {
+    margin: 120px auto 100px;
+    position: relative;
+}
+
+.blockWrapper h2 {
+    margin: 12px auto 20px;
+}
+
+.blockList {
+    background: #fff;
+}
+
+div.blocksWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 185px;
+    margin-bottom: 185px;
+    padding-top: 343px;
+    margin-top: 274px;
+}
+
+.cardsList {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+@media screen and (max-width: 1280px) {
+    .cardsList img {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    div.blocksWrapper {
+        padding-top: 198px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blockWrapper {
+        margin-top: 50px;
+    }
+}

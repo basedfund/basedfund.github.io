@@ -1,12 +1,12 @@
 h1.headlineHero {
     color: #050505;
-    font-family: 'Urbanist Medium', sans-serif;
-    font-size: 72px;
+    font-family: 'Urbanist SemiBold', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    line-height: 100px;
-    letter-spacing: -2.88px;
-    white-space: break-spaces;
+    font-weight: 600;
+    font-size: 80.2253px;
+    line-height: 88px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
 }
 
 h1.headline1 {
@@ -21,23 +21,25 @@ h1.headline1 {
 }
 
 h2.headline2 {
-    color: #050505;
-    font-family: Urbanist, sans-serif;
-    font-size: 64px;
+    font-family: 'Urbanist Regular', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    line-height: 69px; /* 107.813% */
-    letter-spacing: -2.56px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
 
 h3.headline3 {
-    color: #050505;
-    font-family: 'Urbanist Medium', sans-serif;
-    font-size: 56px;
+    font-family: 'Urbanist Regular', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    line-height: 61px; /* 108.929% */
-    letter-spacing: -2.24px;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
 
 h4.headline4 {
@@ -74,14 +76,14 @@ h6.headline6 {
 }
 
 span.bodyL {
-    color: #918EA4;
-    font-family: "Urbanist Regular", sans-serif;
-    font-size: 20px;
+    font-family: 'Urbanist Regular', sans-serif;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
-    letter-spacing: -0.8px;
-    text-align: start;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
     white-space: break-spaces;
 }
 
@@ -103,6 +105,34 @@ span.bodyS {
     font-weight: 400;
     line-height: 29px;
     letter-spacing: -0.64px;
+}
+
+span.subtitle {
+    font-family: 'Urbanist Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #DEFC65;
+}
+
+@media screen and (max-width: 1280px) {
+    h1.headlineHero {
+        font-size: 60px;
+    }
+
+    h2.headline2 {
+        font-size: 50px;
+    }
+
+    h3.headline3 {
+        font-size: 46px;
+    }
+
+    h4.headline4 {
+        font-size: 36px;
+    }
 }
 
 @media screen and (max-width: 868px) {

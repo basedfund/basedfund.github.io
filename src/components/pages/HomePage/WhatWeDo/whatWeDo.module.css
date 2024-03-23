@@ -3,7 +3,7 @@
 }
 
 .blockWrapper h2 {
-    margin-bottom: 47px;
+    margin: 12px auto 20px;
 }
 
 @media screen and (max-width: 768px) {

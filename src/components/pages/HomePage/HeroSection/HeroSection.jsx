@@ -1,41 +1,40 @@
 'use client';
 
 import content from '@/asset/content.json';
+import { sanitizeText } from '@/utils/sanitizer';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
 
-import BRButton from '@/components/BRButton/BRButton';
 import { BRTypography } from '@/components/BRTypography';
 
-import heroImage from '../../../../../public/asset/img/xasds.png';
+import heroImage from '../../../../../public/asset/img/home.png';
 import styles from './heroSection.module.css';
 
 export const HeroSection = () => {
   const {
     homePage: { mainsSection },
   } = content;
-  const router = useRouter();
+  // const router = useRouter();
 
-  const { title, description, leftButton, rightButton } = mainsSection;
+  const { title, tags } = mainsSection;
 
-  const scrollToFeature = () => {
-    const targetElement = document.querySelector('#features');
-    const offset = 80;
-    const targetPosition = targetElement.offsetTop - offset;
-
-    window.scrollTo({
-      top: targetPosition,
-      behavior: 'smooth',
-    });
-  };
-
-  const handleOpenURl = (url) => {
-    if (url.includes('https://')) {
-      window.open(url, '_self');
-    } else {
-      router.push(url);
-    }
-  };
+  // const scrollToFeature = () => {
+  //   const targetElement = document.querySelector('#features');
+  //   const offset = 80;
+  //   const targetPosition = targetElement.offsetTop - offset;
+  //
+  //   window.scrollTo({
+  //     top: targetPosition,
+  //     behavior: 'smooth',
+  //   });
+  // };
+  //
+  // const handleOpenURl = (url) => {
+  //   if (url.includes('https://')) {
+  //     window.open(url, '_self');
+  //   } else {
+  //     router.push(url);
+  //   }
+  // };
 
   return (
     <div className={styles.heroSectionWrapper}>
@@ -49,12 +48,17 @@ export const HeroSection = () => {
         />
       </div>
       <div className={styles.textWrapper}>
-        <BRTypography text={title} variantMapping="headlineHero" />
-        <BRTypography text={description} variantMapping="bodyM" />
+        <BRTypography
+          text={<span dangerouslySetInnerHTML={{ __html: sanitizeText(title) }} />}
+          variantMapping="headlineHero"
+        />
 
-        <div className={styles.buttonsWrapper}>
-          <BRButton text={leftButton.text} variant="contained" onClick={() => handleOpenURl(leftButton.url)} />
-          <BRButton text={rightButton.text} variant="outlined" onClick={scrollToFeature} />
+        <div className={styles.tags}>
+          {tags.map((tag) => (
+            <span key={tag.text} className={styles[tag.variant]}>
+              {tag.text}
+            </span>
+          ))}
         </div>
       </div>
     </div>

@@ -62,6 +62,13 @@ export const Subscription = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 classes={{ root: styles.input }}
                 required
+                sx={{
+                  input: {
+                    '&::placeholder': {
+                      opacity: 1,
+                    },
+                  },
+                }}
               />
               <BRButton text={buttonText} variant="contained" type="submit" />
             </div>

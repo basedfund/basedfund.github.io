@@ -1,24 +1,28 @@
 .blockWrapper {
     border-radius: 40px;
-    background: #F6F7F9;
+    background: #fff;
     display: flex;
     justify-content: space-between;
     position: relative;
     width: 100%;
     flex-direction: row;
-    height: 466px;
+    height: 562px;
 }
 
 .textWrapper {
-    padding: 44px 0 0 44px;
+    padding: 44px 0 0 79px;
     text-align: start;
+    max-width: 465px;
 }
 
+.blockWrapper .textWrapper svg path {
+    fill: #141414;
+}
 
 .blockWrapper .img {
     width: auto;
     height: auto;
-    max-width: 655px;
+    max-width: 716px;
 }
 
 .blockWrapper.dark {
@@ -29,7 +33,15 @@
     color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
+    .blockWrapper {
+        height: 400px;
+    }
+
+    .textWrapper {
+        padding-left: 40px;
+    }
+
     .blockWrapper .img {
         width: 45% !important;
     }

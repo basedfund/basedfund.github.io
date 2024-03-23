@@ -1,4 +1,5 @@
 import content from '@/asset/content.json';
+import { sanitizeText } from '@/utils/sanitizer';
 
 import { ContentBlock } from '@/components/ContentBlock';
 import { InfoBlocks } from '@/components/InfoBlocks';
@@ -10,10 +11,16 @@ export const WhatWeDo = () => {
     homePage: { whatWeDo },
   } = content;
 
-  const { title, description, blocks } = whatWeDo;
+  const { title, description, blocks, subtitle } = whatWeDo;
 
   return (
-    <ContentBlock title={title} description={description} className={styles.blockWrapper} id="features">
+    <ContentBlock
+      title={<span dangerouslySetInnerHTML={{ __html: sanitizeText(title) }} />}
+      subtitle={subtitle.toUpperCase()}
+      description={description}
+      className={styles.blockWrapper}
+      id="features"
+    >
       <InfoBlocks blocks={blocks} />
     </ContentBlock>
   );

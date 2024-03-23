@@ -1,7 +1,7 @@
 {
   "homePage": {
     "mainsSection": {
-      "title": "Automated\nCrypto Investing Powered by AI",
+      "title": "<span class='text-with-background'>Automated</span> Cryptocurrency <span class='gray-text'>Investment</span> Made Easy",
       "description": "Leverage our artificial intelligence strategies to stop speculating and increase your returns* Professional investors can create and test strategies using our tool kits and exchange integrations. ",
       "rightButton": {
         "text": "Explore more",
@@ -10,27 +10,74 @@
       "leftButton": {
         "text":"Get Started",
         "url": "/waitlist"
-      }
+      },
+      "tags": [
+        {
+          "text": "secure",
+          "variant": "light"
+        },
+        {
+          "text": "DeFi Trading",
+          "variant": "color"
+        },
+        {
+          "text": "&",
+          "variant": "text"
+        },
+        {
+          "text": "Automated Strategies",
+          "variant": "light"
+        }
+      ]
     },
     "whatWeDo": {
-      "title": "What we do",
+      "subtitle": "What we do",
+      "title": "Maximize <span class='gray-text-dark-background'>Returns</span> in any Market",
       "description": "We built Bedrock to support our own advanced trading needs. The team is composed of researchers, fin-tech professionals, and smart contract engineers.",
       "blocks": [
         {
-          "title": "Deposit funds into a supported exchange.",
-          "description": "Connect your exchange(s) and select which AI strategy you would like to deploy. Monitor performance and adjust as the markets evolve.",
-          "image": "/asset/img/supported_exchange.jpg"
+          "title": "Deposit funds",
+          "description": "Deposit funds into your Bedrock wallet and select which automated strategy you would like to deploy. Monitor performance and adjust as the markets evolve.",
+          "image": "/asset/img/depositFunds.png",
+          "theme": "light"
         },
         {
           "title": "Employ an AI strategy to grow your account.",
           "description": "Take advantage of our tested solutions to grow your account or employ different strategies regardless of a bull, or bear market.",
-          "image": "/asset/svg/employ_ai_strategy.svg"
+          "image": "/asset/img/employ_ai_strategy.png",
+          "theme": "dark"
         },
         {
-          "title": "Monitor Performance",
+          "title": "Track Results in Real-time",
           "description": "Track, pause or change your strategies based on market performance. ",
-          "image": "/asset/svg/Monitor-Performance.svg",
-          "imagePosition": "right"
+          "image": "/asset/img/trackResults.png",
+          "imagePosition": "right",
+          "theme": "dark"
+        }
+      ]
+    },
+    "ourMission": {
+      "subtitle": "Our Mission",
+      "title": "Crypto Investing Made <span class='color-text'>Easy",
+      "description": "Select from a variety of strategies and withdraw when your goals are met.",
+      "cards": ["/asset/svg/card1.svg","/asset/svg/card2.svg","/asset/svg/card3.svg","/asset/svg/card4.svg"],
+      "blocks": [
+        {
+          "title": "Recurring <span class='gray-text'>Deposits</span>",
+          "description": "Connect your wallet, bank or ApplePay to deposit funds into an automated strategy to invest and grow your crypto.",
+          "button": {
+            "text": "Try it Now"
+          },
+          "img": "/asset/img/Recurring.png"
+        },
+        {
+          "title": "A Wide Variety of Automated <span class='gray-text'>Trading Strategies</span>",
+          "description": "Select from battle-tested strategies focused on Dollar Cost Averaging, Trend following or investing in themes like Infrastructure, Store of Value or emerging tokens.",
+          "button": {
+            "text": "Join a Next-Gen Ai Trade"
+          },
+          "img": "/asset/img/WideVariety.png",
+          "imgPosition": "left"
         }
       ]
     },
@@ -46,7 +93,7 @@
       "image": "/asset/img/about_us.webp"
     },
     "faq": {
-      "title": "Frequently Asked Question’s",
+      "title": "Frequently <span class='gray-text'>Asked</span> Question’s",
       "description": "Commonly asked questions:",
       "questions": [
         {
@@ -107,9 +154,9 @@
     ]
   },
   "allRights": "© 2023 Bedrock. All right reserved.",
-  "institutionsPage": {
+  "companiesPage": {
     "mainsSection": {
-      "title": "AI Powered Investing for your fund or RIA",
+      "title": "<span class='text-with-background'>Automated</span> <br/>Defi Investing for your <span class='gray-text'>Company,</span> fund or RIA",
       "description": "Enhance your portfolio with meticulously trained strategies, offering diversified and uncorrelated returns. A dedicated offering for money managers, family offices and advisors. ",
       "rightButton": {
         "text":"Talk to Sales",
@@ -121,6 +168,9 @@
       }
     },
     "statistic": {
+      "subtitle": "What we do",
+      "title": "Maximize <span class='gray-text-dark-background'>Returns</span> in any Market",
+      "description": "We built Bedrock to support our own advanced trading needs. The team is composed of researchers, fin-tech professionals, and smart contract engineers.",
       "options": [
         {
           "title": "1,000 +",
@@ -128,27 +178,29 @@
           "img": "/asset/svg/arrow_up.svg"
         },
         {
-          "title": "$4 million +",
+          "title": "$4 <span style='font-size: 50px'>million +</span>",
           "description": "in volume & growing daily"
         },
         {
-          "title": "8.2%",
+          "title": "8.2 %",
           "description": "increased ROI compared to\nbuy and hold",
           "img": "/asset/svg/arrow_up.svg"
         }
       ],
       "blocks": [
         {
-          "title": "AI-Driven Investing Simplified.",
-          "description": "Connect your exchange(s) and select which AI strategy you would like to deploy. Dedicate an investment amount and let automated strategies manage the trades.",
-          "image": "/asset/svg/investing_simplified.svg",
-          "icon": "/asset/svg/bank.svg"
+          "title": "Battle Tested Strategies",
+          "description": "Our trading strategies are based real-time market analysis each with unique risk profiles.",
+          "image": "/asset/img/employ_ai_strategy.png",
+          "theme": "dark",
+          "icon": "/asset/svg/line-chart-up.svg"
         },
         {
-          "title": "Build & Test Strategies",
-          "description": "Design trading bots based on our easy to use interface and analyze performance using our built-in back testing tools. Leverage stop losses and other tools to manage risk. ",
-          "image": "/asset/svg/test_strategies.svg",
-          "icon": "/asset/svg/line-chart-up.svg"
+          "title": "Crypto Investing Simplified.",
+          "description": "Connect your bank, Web3 Wallet or other payment method and select which Automated strategy you would like to deploy. Dedicate an investment amount and let automated strategies manage the trades.",
+          "image": "/asset/img/cyptoSimplified.png",
+          "icon": "/asset/svg/bank.svg",
+          "theme": "light"
         }
       ],
       "slider": [
@@ -156,10 +208,12 @@
           "title": "Strategies for every market.",
           "description": "Our latest strategy is trained on bull, bear and sideways markets enabling you to navigate whatever the market may bring.",
           "icon": "/asset/svg/trade.svg",
-          "image": "/asset/svg/Group 1171275998.svg",
+          "image": "/asset/img/Strategies.png",
           "imagePosition": "right",
+          "theme": "dark",
           "imgStyles": {
-            "paddingTop": "55px"
+            "paddingTop": "94px",
+            "height": "fit-content"
           }
         },
         {
@@ -196,6 +250,41 @@
         }
       ]
     },
+    "whyBedrock": {
+      "subtitle": "Why Bedrock Only?",
+      "title": "We Made Investment <span class='color-text'>Easy",
+      "description": "Explore some main features of Bedrock and get start a mindblowing Experience in Crypto World.",
+      "cards": ["/asset/img/CardCompanies1.png","/asset/img/CardCompanies2.png","/asset/img/CardCompanies3.png"],
+      "blocks": [
+        {
+          "title": "Recurring <span class='gray-text'>Deposits</span>",
+          "description": "Connect your wallet, bank or ApplePay to deposit funds into an automated strategy to invest and grow your crypto.",
+          "button": {
+            "text": "Try it Now"
+          },
+          "img": "/asset/img/Recurring.png"
+        },
+        {
+          "title": "A Wide Variety of Automated <span class='gray-text'>Trading Strategies</span>",
+          "description": "Select from battle-tested strategies focused on Dollar Cost Averaging, Trend following or investing in themes like Infrastructure, Store of Value or emerging tokens.",
+          "button": {
+            "text": "Join a Next-Gen Ai Trade"
+          },
+          "img": "/asset/img/WideVariety.png",
+          "imgPosition": "left"
+        }
+      ]
+    },
+    "blocks": [
+      {
+        "title": "Winning Strategies <span class='gray-text'>Across</span> Markets",
+        "description": "Our AI-driven platform analyses the complexities of cryptocurrency trading, delivering actionable insights and strategies directly to you.r trading account.  We make data informed trades, day or night, scanning markets for opportunities.",
+        "button": {
+          "text": "Get Started"
+        },
+        "img": "/asset/img/winningStrategies.png"
+      }
+    ],
     "exchangesBlock": {
       "title": "Connect your exchanges & enable automated trading",
       "description": "Many companies have tried using Bedrock and they trust the safety of their assets."
@@ -286,28 +375,23 @@
   "header": {
     "menu": [
       {
-        "title": "For Individuals",
+        "title": "Home",
         "options": [],
         "url": "/"
       },
       {
-        "title": "For Institutions",
+        "title": "For Companies",
         "options": [],
-        "url": "/institutions"
-      },
-      {
-        "title": "Strategies",
-        "url": "/investmen-strategies"
-      },
-      {
-        "title": "FAQ’s",
-        "url": "#faq"
+        "url": "/for-companies"
       }
     ],
     "blackButton": "Join Waitlist",
     "signUpLink": {
       "text": "Sign up",
       "url": ""
+    },
+    "topBlock": {
+      "text": "Automated Trading on Uniswap"
     }
   },
   "aboutUsPage": {

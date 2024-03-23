@@ -1,0 +1,1 @@
+export { TextImgBlock } from './TextImgBlock';
