@@ -174,6 +174,7 @@
         width: 150px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .desktopNav {
         display: none;
@@ -181,6 +182,30 @@
 
     .mobNav {
         display: block;
+    }
+
+    .linkList {
+        background: none;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding: 30px 0 ;
+    }
+
+    .link {
+        box-shadow: none;
+        background: none;
+        text-align: start;
+        padding: 0;
+        font-size: 20px;
+        width: auto;
+        height: auto;
+        line-height: 1;
+    }
+
+    .buttonWrapper {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 

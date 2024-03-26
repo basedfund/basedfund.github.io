@@ -24,12 +24,7 @@ export const WhyBedrock = () => {
       <Wrapper>
         <div className={styles.cardsList}>
           {cards.map((card, i) => (
-            <img
-              key={i}
-              src={card}
-              alt={`Card ${i + 1}`}
-              style={{ marginLeft: i ? -60 : 0, zIndex: cards.length - i, position: 'relative', top: i % 2 ? -10 : 0 }}
-            />
+            <img key={i} src={card} alt={`Card ${i + 1}`} className={styles.cardImg} />
           ))}
         </div>
       </Wrapper>

@@ -75,12 +75,17 @@
 }
 
 @media screen and (max-width: 1024px) and (min-width: 869px) {
-    .blockWrapper.blockRow img {
-        width: 50%;
+    .blockWrapper.blockRow .imgWrapper {
+        width: 70%;
     }
 }
 
 @media screen and (max-width: 868px) {
+    .imgWrapper {
+        align-items: flex-end;
+        justify-content: center;
+    }
+
     .blockWrapper {
         width: 48%;
     }
@@ -94,5 +99,9 @@
 
     .blockWrapper.blockRow {
         flex-direction: column;
+    }
+
+    .imgWrapper {
+        display: none;
     }
 }

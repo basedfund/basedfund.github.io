@@ -27,6 +27,22 @@ div.blocksWrapper {
     display: flex;
 }
 
+.cardImg {
+    position: relative;
+}
+
+.cardImg:not(:first-child) {
+    margin-left: -60px;
+}
+
+.cardImg:first-child {
+    margin-left: 0;
+}
+
+.cardImg:nth-child(odd) {
+    top: -10px;
+}
+
 @media screen and (max-width: 1280px) {
     .cardsList img {
         max-width: 300px;
@@ -41,7 +57,28 @@ div.blocksWrapper {
 }
 
 @media screen and (max-width: 768px) {
-    .blockWrapper {
+    div.blocksWrapper {
         margin-top: 50px;
+        padding-top: 80px;
+        gap: 130px;
+    }
+
+    .cardsList {
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .cardImg:not(:first-child) {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .cardImg:nth-child(3) {
+        margin-left: 0;
     }
 }
