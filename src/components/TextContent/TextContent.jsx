@@ -14,6 +14,7 @@ export const TextContent = ({ title, descriptions }) => {
           {item.text && (
             <BRTypography
               variantMapping="bodyL"
+              theme="light"
               dangerouslySetInnerHTML={{
                 __html: item.text,
               }}

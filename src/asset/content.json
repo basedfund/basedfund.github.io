@@ -132,7 +132,6 @@
         "title":"Bedrock",
         "links": [
           {"text":"About", "url":"/about-us"},
-          {"text":"Strategies", "url": ""},
           {"text":"Careers", "url": "/careers"}
         ]
       },

@@ -87,6 +87,11 @@ span.bodyL {
     white-space: break-spaces;
 }
 
+span.bodyL.light {
+    color: #918EA4;
+    text-align: start;
+}
+
 span.bodyM {
     color: #918EA4;
     font-family: "Urbanist Regular", sans-serif;

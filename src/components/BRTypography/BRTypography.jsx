@@ -23,11 +23,11 @@ const variantMappingList = {
   descriptionM: 'span',
 };
 
-export const BRTypography = ({ text, variantMapping, style, dangerouslySetInnerHTML }) => {
+export const BRTypography = ({ text, variantMapping, style, dangerouslySetInnerHTML, theme }) => {
   return (
     <Typography
       variant={variantMappingList[variantMapping]}
-      className={styles[variantMapping]}
+      className={`${styles[variantMapping]} ${styles[theme]}`}
       style={style}
       dangerouslySetInnerHTML={dangerouslySetInnerHTML}
     >
