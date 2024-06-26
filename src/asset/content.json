@@ -13,7 +13,7 @@
       },
       "tags": [
         {
-          "text": "secure",
+          "text": "Secure",
           "variant": "light"
         },
         {
@@ -25,7 +25,7 @@
           "variant": "text"
         },
         {
-          "text": "Automated Strategies",
+          "text": "Automated Portfolios",
           "variant": "light"
         }
       ]
@@ -33,17 +33,17 @@
     "whatWeDo": {
       "subtitle": "What we do",
       "title": "Maximize <span class='gray-text-dark-background'>Returns</span> in any Market",
-      "description": "We built Bedrock to support our own advanced trading needs. The team is composed of researchers, fin-tech professionals, and smart contract engineers.",
+      "description": "We built Bedrock to make it easy to invest in a basket of crypto assets. Our team is composed of researchers, fin-tech professionals, and smart contract engineers.",
       "blocks": [
         {
           "title": "Deposit funds",
-          "description": "Deposit funds into your Bedrock wallet and select which automated strategy you would like to deploy. Monitor performance and adjust as the markets evolve.",
+          "description": "Browse the list of portfolios and select which strategy you would like to invest in. Monitor performance and adjust as the markets evolve.",
           "image": "/asset/img/depositFunds.png",
           "theme": "light"
         },
         {
-          "title": "Employ an AI strategy to grow your account.",
-          "description": "Take advantage of our tested solutions to grow your account or employ different strategies regardless of a bull, or bear market.",
+          "title": "Employ an automated strategy to grow your account.",
+          "description": "Take advantage of our pre-built portfolios to grow your account. Crypto staples, emerging tokens, real-world assets and more",
           "image": "/asset/img/employ_ai_strategy.png",
           "theme": "dark"
         },
@@ -72,9 +72,9 @@
         },
         {
           "title": "A Wide Variety of Automated <span class='gray-text'>Trading Strategies</span>",
-          "description": "Select from battle-tested strategies focused on Dollar Cost Averaging, Trend following or investing in themes like Infrastructure, Store of Value or emerging tokens.",
+          "description": "Select from battle-tested strategies focused on Dollar Cost Averaging, or investing in themes like Infrastructure, Store of Value or emerging tokens.",
           "button": {
-            "text": "Join a Next-Gen Ai Trade"
+            "text": "Start investing now"
           },
           "img": "/asset/img/WideVariety.png",
           "imgPosition": "left"
@@ -98,19 +98,19 @@
       "questions": [
         {
           "title": "What is Bedrock",
-          "description": "Bedrock is a platform built on Ethereum focused on providing cutting edge investment strategies for investors. It is inspired by the strategies used in quantative hedgefunds and multi-strategy investment platforms."
+          "description": "Bedrock is a platform built on Ethereum & Base focused on providing pre-built investment strategies for investors. It is inspired by the strategies used by quantative investors including portfolio theory, factor and credit based investing."
         },
         {
           "title": "How does it work?",
-          "description": "You control your own funds and deposit it into a supported exchange. Once deposited, return to our website and select an existing strategy or build your own. Once ready you can activate it and monitor its performance. "
+          "description": "You control your own funds and connect your wallet to begin investing. Once funds are deposited, browse and select an existing strategy. Once ready you can mint tokens for one of crypto baskets to grow your account and monitor its performance. "
         },
         {
           "title": "What underlying patterns are used?",
-          "description": "We employ a variety of quantative strategies to protect capital and capitalize on market movements including statistical arbitrage, trend following, relative value, scalping and funding arbitrage."
+          "description": "We employ a variety of quantative strategies to protect capital and capitalize on market movements including long-term investing in the longest running crypto assets, portfolios organize by themes, or simply saving USD pegged assets ."
         },
         {
           "title": "Is there a token available",
-          "description": "There is no publicly available token at this moment in time. We are planning to reward early adopters and contributors via our ERC-20 token once our governance model has been finalized.."
+          "description": "There is no publicly available token at this moment in time. You can vote on new portfolios and product changes by staking RSR token on Reserve.org for a given strategy."
         }
       ]
     }
@@ -253,7 +253,7 @@
     "whyBedrock": {
       "subtitle": "Why Bedrock Only?",
       "title": "We Made Investment <span class='color-text'>Easy",
-      "description": "Explore some main features of Bedrock and get start a mindblowing Experience in Crypto World.",
+      "description": "Elevate your crypto investments with Bedrock's professional insights.",
       "cards": ["/asset/img/CardCompanies1.png","/asset/img/CardCompanies2.png","/asset/img/CardCompanies3.png"],
       "blocks": [
         {
@@ -278,7 +278,7 @@
     "blocks": [
       {
         "title": "Winning Strategies <span class='gray-text'>Across</span> Markets",
-        "description": "Our AI-driven platform analyses the complexities of cryptocurrency trading, delivering actionable insights and strategies directly to you.r trading account.  We make data informed trades, day or night, scanning markets for opportunities.",
+        "description": "Our platform simplifies cryptocurrency trading by utilizing factor-based investing and pre-built crypto portfolios. It delivers actionable insights and strategies directly through a single token that represents various ERC-20 tokens, making data-informed trades 24/7 by scanning markets for opportunities.",
         "button": {
           "text": "Get Started"
         },
@@ -391,7 +391,7 @@
       "url": ""
     },
     "topBlock": {
-      "text": "Automated Trading on Uniswap"
+      "text": "Automated Portfolios for Crypto"
     }
   },
   "aboutUsPage": {
