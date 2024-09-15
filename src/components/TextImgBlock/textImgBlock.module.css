@@ -34,13 +34,22 @@
 @media screen and (max-width: 1025px) {
     .wrapper img {
         max-width: 400px;
+        width: 100%;
     }
 
     .textBlock h2  {
         font-size: 50px;
     }
+}
 
-    /*div.textBlock span {*/
-    /*    font-size: 16px !important;*/
-    /*}*/
+@media screen and (max-width: 769px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .textBlock h2  {
+        font-size: 36px;
+    }
 }

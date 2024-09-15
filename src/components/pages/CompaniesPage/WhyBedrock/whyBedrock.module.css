@@ -27,8 +27,24 @@ div.blocksWrapper {
     width: max-content;
 }
 
+.cardImg {
+    position: relative;
+}
+
+.cardImg:not(:first-child) {
+    margin-left: -60px;
+}
+
+.cardImg:first-child {
+    margin-left: 0;
+}
+
+.cardImg:nth-child(odd) {
+    top: -10px;
+}
+
 @media screen and (max-width: 1025px) {
-    .cardsList img {
+    .cardImg {
         max-width: 300px;
     }
 
@@ -41,4 +57,51 @@ div.blocksWrapper {
     .blockWrapper {
         margin-top: 50px;
     }
+
+    .cardImg {
+        max-width: 260px;
+    }
+
+    .cardImg:not(:first-child) {
+        margin-left: -40px;
+    }
+
+    .cardImg:nth-child(odd) {
+        top: 10px;
+    }
+
+    div.blockWrapper {
+        margin-bottom: 60px;
+    }
+
+    div.blocksWrapper {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cardsList {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .cardImg:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .cardImg:first-child {
+        top: 35px;
+    }
+
+    .cardImg:last-child {
+        top: -35px;
+    }
+    div.blocksWrapper {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+
 }

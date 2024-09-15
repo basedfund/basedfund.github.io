@@ -10,3 +10,14 @@
     align-items: center;
     gap: 12px;
 }
+
+@media screen and (max-width: 769px) {
+    .block span {
+        white-space: break-spaces;
+        text-align: center;
+    }
+
+    .imageWrapper h3 {
+        font-size: 35px;
+    }
+}
